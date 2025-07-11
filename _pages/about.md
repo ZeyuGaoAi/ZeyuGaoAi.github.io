@@ -14,7 +14,19 @@ Computational Pathology
 
 Education
 ------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+
+- **Xi’an Jiaotong University**, Ph.D. in Computer Science  
+  *Sept 2019 – June 2023*  
+  - **Subjects:** Computational Pathology, Medical Image Analysis  
+  - **Thesis:** *Research on Deep Learning Method for Multi-level Tasks of Pathological Image Analysis*
+
+- **Xidian University**, M.S. in Artificial Intelligence  
+  *Sept 2014 – June 2017*  
+  - **Subjects:** Machine Learning, Hyperspectral Image Analysis
+
+- **Xidian University**, B.S. in Electronic Engineering  
+  *Sept 2010 – June 2014*  
+  - **Coursework:** Image Denoising, Recommendation System
 
 Selected Honors & Awards
 ------
