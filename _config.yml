@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Zeyu Gao / Dr."
+title                    : "Zeyu Gao / Ph.D."
 title_separator          : "-"
 name                     : &name "Zeyu Gao"
 description              : &description "Department of Oncology, University of Cambridge"
