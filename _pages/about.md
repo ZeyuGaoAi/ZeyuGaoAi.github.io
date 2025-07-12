@@ -20,24 +20,18 @@ My work involves the analysis of pathological images across multiple scales and 
 Education
 ------
 
-- **Xi’an Jiaotong University**, Ph.D. in Computer Science  
-  *Sept 2019 – June 2023*  
-  - **Subjects:** Computational Pathology, Medical Image Analysis  
+- **Xi’an Jiaotong University**, Ph.D. in Computer Science [*Sept 2019 – June 2023*]
   - **Thesis:** *Research on Deep Learning Method for Multi-level Tasks of Pathological Image Analysis*
 
-- **Xidian University**, M.S. in Artificial Intelligence  
-  *Sept 2014 – June 2017*  
-  - **Subjects:** Machine Learning, Hyperspectral Image Analysis
+- **Xidian University**, M.S. in Artificial Intelligence [*Sept 2014 – June 2017*]
 
-- **Xidian University**, B.S. in Electronic Engineering  
-  *Sept 2010 – June 2014*  
-  - **Coursework:** Image Denoising, Recommendation System
+- **Xidian University**, B.S. in Electronic Engineering  [*Sept 2010 – June 2014*]
 
 Selected Honors & Awards
 ------
-Postdoc Fellow, Trinity College, University of Cambridge, 2024-2026
-Excellent Postgraduate of Xi’an Jiaotong University 2021-2022.
-MICCAI Student Travel Award, 2021.
+- Postdoc Fellow, Trinity College, University of Cambridge, 2024-2026
+- Excellent Postgraduate of Xi’an Jiaotong University 2021-2022.
+- MICCAI Student Travel Award, 2021.
 
 Recent news and activities
 ------
