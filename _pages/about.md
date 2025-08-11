@@ -35,6 +35,7 @@ Selected Honors & Awards
 
 Recent news and activities
 ------
+- [Aug. 2025] Honored to give an invited lecture on *“Multiomics for Cancer”* at the [Oxford ML School 2025](https://www.oxfordml.school/2025-health), Oxford, UK.
 - [Jul. 2025] Proud to share that this impactful dataset project (which I supervised), "A fully annotated pathology slide dataset for early gastric cancer and precancerous lesions" has been accepted by [Nature Scientific Data](https://www.nature.com/articles/s41597-025-05679-1)! An important resource for computational pathology and early gastric cancer research!
 - [Jul. 2025] Proud to share that the first project I’ve supervised at University of Cambridge, “CoxKAN: Kolmogorov–Arnold Networks for interpretable, high-performance survival analysis”, has been accepted by [Bioinformatics](https://doi.org/10.1093/bioinformatics/btaf413)! Nearly a year in the making, and already 15 citations on [arXiv](https://arxiv.org/abs/2409.04290)!
 - [Jun. 2025] Our special issue *"Can AI Care? Affective LLMs for the Future of Mental Health"* is now live on *IEEE Transactions on Affective Computing*. The issue aims to explore how large language models can support mental health through affective computing. Submissions are now open [here](https://www.computer.org/digital-library/journals/ta/can-ai-care-mental-health).
