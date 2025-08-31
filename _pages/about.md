@@ -35,6 +35,7 @@ Selected Honors & Awards
 
 Recent news and activities
 ------
+- [Aug. 2025] Proud to share that this important project (which I supervised), “StaDis: Stability distance to detecting out-of-distribution data in computational pathology”, has been accepted by [Medical Image Analysis](https://www.sciencedirect.com/science/article/pii/S1361841525003202)! A key step toward robust and reliable OOD detection in computational pathology!
 - [Aug. 2025] Honored to give an invited lecture on *“Multiomics for Cancer”* at the [Oxford ML School 2025](https://www.oxfordml.school/2025-health), Oxford, UK.
 - [Jul. 2025] Proud to share that this impactful dataset project (which I supervised), "A fully annotated pathology slide dataset for early gastric cancer and precancerous lesions" has been accepted by [Nature Scientific Data](https://www.nature.com/articles/s41597-025-05679-1)! An important resource for computational pathology and early gastric cancer research!
 - [Jul. 2025] Proud to share that the first project I’ve supervised at University of Cambridge, “CoxKAN: Kolmogorov–Arnold Networks for interpretable, high-performance survival analysis”, has been accepted by [Bioinformatics](https://doi.org/10.1093/bioinformatics/btaf413)! Nearly a year in the making, and already 15 citations on [arXiv](https://arxiv.org/abs/2409.04290)!
