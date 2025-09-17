@@ -35,6 +35,7 @@ Selected Honors & Awards
 
 Recent news and activities
 ------
+- [Sep. 2025] Honored to give an invited talk on *“Multimodal AI for Cancer Research”* at the [ESMO MAP Congress 2025](https://www.esmo.org/meeting-calendar/molecular-analysis-for-precision-oncology-congress-2025/programme), Paris, France.
 - [Aug. 2025] Proud to share that this important project (which I supervised), “StaDis: Stability distance to detecting out-of-distribution data in computational pathology”, has been accepted by [Medical Image Analysis](https://www.sciencedirect.com/science/article/pii/S1361841525003202)! A key step toward robust and reliable OOD detection in computational pathology!
 - [Aug. 2025] Honored to give an invited lecture on *“Multiomics for Cancer”* at the [Oxford ML School 2025](https://www.oxfordml.school/2025-health), Oxford, UK.
 - [Jul. 2025] Proud to share that this impactful dataset project (which I supervised), "A fully annotated pathology slide dataset for early gastric cancer and precancerous lesions" has been accepted by [Nature Scientific Data](https://www.nature.com/articles/s41597-025-05679-1)! An important resource for computational pathology and early gastric cancer research!
