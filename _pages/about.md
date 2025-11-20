@@ -35,7 +35,8 @@ Selected Honors & Awards
 
 Recent news and activities
 ------
-- [Sep. 2025] Delighted to share that our project "ProGIS: Prototype-Guided Interactive Segmentation for Pathological Images", which I supervised, has been accepted by [IEE Trans on Medical Imaging](https://ieeexplore.ieee.org/abstract/document/11168941)! This work introduces a novel interactive segmentation framework tailored for tissue image analysis.
+- [Nov. 2025] Delighted to share that our [Nature Cancer](https://www.nature.com/articles/s43018-025-01060-8) paper "SMMILe enables accurate spatial quantification in digital pathology using multiple-instance learning", a new AI tool that rapidly analyses complex cancer slides and delivers precise spatial tumour mapping from weak labels, is now published.
+- [Sep. 2025] Delighted to share that our project "ProGIS: Prototype-Guided Interactive Segmentation for Pathological Images", which I supervised, has been accepted by [IEEE Trans on Medical Imaging](https://ieeexplore.ieee.org/abstract/document/11168941)! This work introduces a novel interactive segmentation framework tailored for tissue image analysis.
 - [Sep. 2025] Honored to give an invited talk on *“Multimodal AI for Cancer Research”* at the [ESMO MAP Congress 2025](https://www.esmo.org/meeting-calendar/molecular-analysis-for-precision-oncology-congress-2025/programme), Paris, France.
 - [Aug. 2025] Proud to share that this important project (which I supervised), “StaDis: Stability distance to detecting out-of-distribution data in computational pathology”, has been accepted by [Medical Image Analysis](https://www.sciencedirect.com/science/article/pii/S1361841525003202)! A key step toward robust and reliable OOD detection in computational pathology!
 - [Aug. 2025] Honored to give an invited lecture on *“Multiomics for Cancer”* at the [Oxford ML School 2025](https://www.oxfordml.school/2025-health), Oxford, UK.
