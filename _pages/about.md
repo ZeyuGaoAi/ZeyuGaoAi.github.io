@@ -83,6 +83,21 @@ redirect_from:
       <p>A first-author MedIA paper that jointly learns cancer region detection and subtype classification under weak supervision in whole-slide images.</p>
     </article>
     <article class="home-card">
+      <div class="home-card-meta">IEEE Transactions on Medical Imaging 2022</div>
+      <h3><a href="/publications/TMI2022/">Unsupervised representation learning for tissue segmentation in histopathological images: From global to local contrast</a></h3>
+      <p>A first-author TMI paper on unsupervised multi-granularity representation learning for tissue segmentation in histopathology.</p>
+    </article>
+    <article class="home-card">
+      <div class="home-card-meta">MICCAI 2020</div>
+      <h3><a href="/publications/MICCAI2020/">Renal cell carcinoma detection and subtyping with minimal point-based annotation in whole-slide images</a></h3>
+      <p>A first-author MICCAI paper showing how minimal point annotations can support effective renal cancer detection and subtyping on whole-slide images.</p>
+    </article>
+    <article class="home-card">
+      <div class="home-card-meta">MICCAI 2021</div>
+      <h3><a href="/publications/MICCAI2021_0/">Nuclei grading of clear cell renal cell carcinoma in histopathological image by composite high-resolution network</a></h3>
+      <p>A first-author MICCAI paper on high-resolution nuclei grading for clear cell renal cell carcinoma in crowded pathology images.</p>
+    </article>
+    <article class="home-card">
       <div class="home-card-meta">MICCAI 2021</div>
       <h3><a href="/publications/MICCAI2021_1/">Instance-based vision transformer for subtyping of papillary renal cell carcinoma in histopathological image</a></h3>
       <p>A first-author MICCAI paper using nuclei-centered instances and transformer modeling for fine-grained renal cancer subtyping.</p>
