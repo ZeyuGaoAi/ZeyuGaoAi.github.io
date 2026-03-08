@@ -10,7 +10,7 @@ redirect_from:
   <div class="home-kicker">Computational Pathology and Multimodal AI</div>
   <h1>Zeyu Gao</h1>
   <p class="home-lead">I am a postdoctoral researcher in the Department of Oncology at the University of Cambridge, affiliated with the <a href="https://www.crispinlab.com/">Crispin Lab</a>, the CRUK Cambridge Centre, and the Early Cancer Institute. My work develops machine learning methods for whole-slide pathology, multimodal foundation models, spatial omics, and clinically relevant prediction from histopathology.</p>
-  <p class="home-meta">Postdoctoral Fellow, Trinity College Cambridge. Current research support from GE HealthCare.</p>
+  <p class="home-meta">Research Associate, University of Cambridge. Current research support from GE HealthCare.</p>
   <div class="home-actions">
     <a class="home-button" href="/publications/">View Publications</a>
     <a class="home-button is-secondary" href="/talks/">View Talks</a>
@@ -70,7 +70,7 @@ redirect_from:
     <article class="home-card">
       <div class="home-card-meta">IEEE Transactions on Medical Imaging 2023</div>
       <h3><a href="/publications/TMI2023/">Childhood leukemia classification via information bottleneck enhanced hierarchical multi-instance learning</a></h3>
-      <p>A first-author TMI paper introducing hierarchical multi-instance learning with an information bottleneck for patient-level leukemia classification from bone marrow smears.</p>
+      <p>A hierarchical multi-instance learning framework with an information bottleneck for patient-level leukemia classification from bone marrow smears.</p>
     </article>
     <article class="home-card">
       <div class="home-card-meta">Nature Cancer 2025</div>
@@ -80,27 +80,27 @@ redirect_from:
     <article class="home-card">
       <div class="home-card-meta">Medical Image Analysis 2023</div>
       <h3><a href="/publications/MedIA2023/">A semi-supervised multi-task learning framework for cancer classification with weak annotation in whole-slide images</a></h3>
-      <p>A first-author MedIA paper that jointly learns cancer region detection and subtype classification under weak supervision in whole-slide images.</p>
+      <p>A semi-supervised multi-task framework that jointly learns cancer region detection and subtype classification under weak supervision in whole-slide images.</p>
     </article>
     <article class="home-card">
       <div class="home-card-meta">IEEE Transactions on Medical Imaging 2022</div>
       <h3><a href="/publications/TMI2022/">Unsupervised representation learning for tissue segmentation in histopathological images: From global to local contrast</a></h3>
-      <p>A first-author TMI paper on unsupervised multi-granularity representation learning for tissue segmentation in histopathology.</p>
+      <p>An unsupervised multi-granularity representation learning framework for tissue segmentation in histopathology.</p>
     </article>
     <article class="home-card">
       <div class="home-card-meta">MICCAI 2020</div>
       <h3><a href="/publications/MICCAI2020/">Renal cell carcinoma detection and subtyping with minimal point-based annotation in whole-slide images</a></h3>
-      <p>A first-author MICCAI paper showing how minimal point annotations can support effective renal cancer detection and subtyping on whole-slide images.</p>
+      <p>A weakly supervised framework showing how minimal point annotations can support effective renal cancer detection and subtyping on whole-slide images.</p>
     </article>
     <article class="home-card">
       <div class="home-card-meta">MICCAI 2021</div>
       <h3><a href="/publications/MICCAI2021_0/">Nuclei grading of clear cell renal cell carcinoma in histopathological image by composite high-resolution network</a></h3>
-      <p>A first-author MICCAI paper on high-resolution nuclei grading for clear cell renal cell carcinoma in crowded pathology images.</p>
+      <p>A composite high-resolution framework for nuclei grading in clear cell renal cell carcinoma pathology images.</p>
     </article>
     <article class="home-card">
       <div class="home-card-meta">MICCAI 2021</div>
       <h3><a href="/publications/MICCAI2021_1/">Instance-based vision transformer for subtyping of papillary renal cell carcinoma in histopathological image</a></h3>
-      <p>A first-author MICCAI paper using nuclei-centered instances and transformer modeling for fine-grained renal cancer subtyping.</p>
+      <p>An instance-based vision transformer for fine-grained papillary renal cell carcinoma subtyping from histopathological images.</p>
     </article>
   </div>
 </section>

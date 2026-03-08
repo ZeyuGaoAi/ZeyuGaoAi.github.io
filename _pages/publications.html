@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my full publication list on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+  <div class="wordwrap publications-archive-intro">You can also find my full publication list on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
 {% include base_path %}
@@ -20,17 +20,22 @@ author_profile: true
         {% continue %}
       {% endif %}
       {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
+        <h2 class="publication-section-title">{{ category[1].title }}</h2>
+        <div class="publication-grid">
         {% assign title_shown = true %}
       {% endunless %}
-      {% include archive-single.html %}
+      {% include archive-publication-card.html %}
     {% endfor %}
+    {% if title_shown %}
+      </div>
+    {% endif %}
   {% endfor %}
 {% else %}
+  <div class="publication-grid">
   {% for post in site.publications reversed %}
-    {% include archive-single.html %}
+    {% include archive-publication-card.html %}
   {% endfor %}
+  </div>
 {% endif %}
-
 
 

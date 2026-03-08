@@ -1,0 +1,56 @@
+{% include base_path %}
+
+{% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = nil %}
+{% endif %}
+
+<article class="publication-card" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  {% if teaser %}
+    <a class="publication-card__media" href="{{ base_path }}{{ post.url }}" rel="permalink">
+      <img
+        src="{% if teaser contains '://' %}{{ teaser }}{% else %}{{ teaser | prepend: '/images/' | prepend: base_path }}{% endif %}"
+        alt="{{ post.title }}">
+    </a>
+  {% else %}
+    <a class="publication-card__media publication-card__media--placeholder" href="{{ base_path }}{{ post.url }}" rel="permalink">
+      <span class="publication-card__placeholder-venue">{{ post.venue }}</span>
+      <span class="publication-card__placeholder-year">{{ post.date | default: "1900-01-01" | date: "%Y" }}</span>
+    </a>
+  {% endif %}
+
+  <div class="publication-card__body">
+    <div class="publication-card__meta">
+      <span>{{ post.venue }}</span>
+      <span>{{ post.date | default: "1900-01-01" | date: "%Y" }}</span>
+    </div>
+
+    <h3 class="publication-card__title" itemprop="headline">
+      <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+    </h3>
+
+    {% if post.excerpt %}
+      <p class="publication-card__excerpt" itemprop="description">{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+    {% endif %}
+
+    <div class="publication-card__actions">
+      {% if post.paperurl %}
+        <a class="publication-card__button" href="{{ post.paperurl }}">Paper</a>
+      {% endif %}
+      {% if post.slidesurl %}
+        <a class="publication-card__button" href="{{ post.slidesurl }}">Slides</a>
+      {% endif %}
+      {% if post.bibtexurl %}
+        <a class="publication-card__button" href="{{ post.bibtexurl }}">BibTeX</a>
+      {% endif %}
+      <a class="publication-card__button publication-card__button--secondary" href="{{ base_path }}{{ post.url }}" rel="permalink">Details</a>
+    </div>
+
+    {% if post.citation %}
+      <p class="publication-card__citation">{{ post.citation }}</p>
+    {% endif %}
+  </div>
+</article>
