@@ -13,29 +13,26 @@ author_profile: true
 
 <!-- New style rendering if publication categories are defined -->
 {% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
+  {% for category in site.publication_category %}
+    {% assign category_posts = site.publications | where: "category", category[0] | reverse %}
+    {% if category_posts.size > 0 %}
+      <section class="publication-section">
         <h2 class="publication-section-title">{{ category[1].title }}</h2>
         <div class="publication-grid">
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-publication-card.html %}
-    {% endfor %}
-    {% if title_shown %}
-      </div>
+          {% for post in category_posts %}
+            {% include archive-publication-card.html %}
+          {% endfor %}
+        </div>
+      </section>
     {% endif %}
   {% endfor %}
 {% else %}
-  <div class="publication-grid">
-  {% for post in site.publications reversed %}
-    {% include archive-publication-card.html %}
-  {% endfor %}
-  </div>
+  <section class="publication-section">
+    <div class="publication-grid">
+      {% for post in site.publications reversed %}
+        {% include archive-publication-card.html %}
+      {% endfor %}
+    </div>
+  </section>
 {% endif %}
-
 
