@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title">
+  <title>MICCAI badge</title>
+  <circle cx="60" cy="60" r="56" fill="#0d1412" stroke="#2f8a67" stroke-width="8"/>
+  <text x="60" y="54" text-anchor="middle" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">MICCAI</text>
+  <text x="60" y="76" text-anchor="middle" fill="#9dd5ba" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">CONFERENCE</text>
+</svg>

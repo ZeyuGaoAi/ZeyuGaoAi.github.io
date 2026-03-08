@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title">
+  <title>Medical Image Analysis badge</title>
+  <circle cx="60" cy="60" r="56" fill="#0f1720" stroke="#b8833c" stroke-width="8"/>
+  <text x="60" y="50" text-anchor="middle" fill="#ffffff" font-family="Georgia, Times New Roman, serif" font-size="18" font-weight="700">medical</text>
+  <text x="60" y="70" text-anchor="middle" fill="#ffffff" font-family="Georgia, Times New Roman, serif" font-size="18" font-weight="700">image</text>
+  <text x="60" y="89" text-anchor="middle" fill="#d8b06a" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5">ANALYSIS</text>
+</svg>

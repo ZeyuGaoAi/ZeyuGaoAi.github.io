@@ -162,57 +162,12 @@
     text-transform: uppercase;
   }
 
-  .home-venue-badge {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 3.2rem;
-    height: 3.2rem;
-    border: 4px solid #102a43;
+  .home-venue-icon {
+    width: 3.25rem;
+    height: 3.25rem;
+    flex: 0 0 auto;
     border-radius: 999px;
-    background: #0b0b0b;
-    color: #fff;
-    font-size: 0.68rem;
-    font-weight: 800;
-    letter-spacing: 0.04em;
-    line-height: 1.05;
-    text-align: center;
-    text-transform: uppercase;
-  }
-
-  .home-venue-badge--cvpr {
-    border-color: #0f6c8d;
-  }
-
-  .home-venue-badge--media {
-    border-color: #a9762b;
-  }
-
-  .home-venue-badge--tmi {
-    border-color: #111;
-  }
-
-  .home-venue-badge--nature {
-    border-color: #e5093c;
-  }
-
-  .home-venue-badge--miccai {
-    border-color: #2b7a5a;
-  }
-
-  .home-venue-badge strong,
-  .home-venue-badge span {
-    display: block;
-  }
-
-  .home-venue-badge strong {
-    font-size: 0.92rem;
-    letter-spacing: 0;
-  }
-
-  .home-venue-badge span {
-    font-size: 0.58rem;
-    letter-spacing: 0.05em;
+    object-fit: cover;
   }
 
   .home-inline-list {
