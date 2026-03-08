@@ -129,7 +129,7 @@ redirect_from:
   <div class="home-card-grid">
     <article class="home-card">
       <h3>Training</h3>
-      <p>I received my Ph.D. in Computer Science from Xi’an Jiaotong University in 2023, jointly trained by the School of Computer Science and the School of Mathematics and Statistics under the supervision of Prof. Chen Li and Prof. Deyu Meng. Before that, I completed my M.S. in Artificial Intelligence and B.S. in Electronic Engineering at Xidian University.</p>
+      <p>I received my Ph.D. in Computer Science from Xi’an Jiaotong University in 2023, jointly trained by the School of Computer Science and the School of Mathematics and Statistics under the supervision of <a href="https://chenli.group/people/Chen_Li/index.html">Prof. Chen Li</a> and <a href="https://scholar.google.com/citations?user=an6w-64AAAAJ&amp;hl=zh-CN">Prof. Deyu Meng</a>. Before that, I completed my M.S. in Artificial Intelligence at Xidian University under the supervision of <a href="https://scholar.google.com/citations?user=G6AdRfwAAAAJ&amp;hl=en">Prof. Xiangrong Zhang</a>, as well as my B.S. in Electronic Engineering there.</p>
     </article>
     <article class="home-card">
       <h3>Selected Honors</h3>
