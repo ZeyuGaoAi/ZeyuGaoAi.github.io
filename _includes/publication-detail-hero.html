@@ -1,0 +1,43 @@
+{% include base_path %}
+
+{% assign publication_image = nil %}
+{% if page.header.image %}
+  {% assign publication_image = page.header.image %}
+{% elsif page.header.teaser %}
+  {% assign publication_image = page.header.teaser %}
+{% endif %}
+
+<section class="publication-detail-hero">
+  {% if publication_image %}
+    <div class="publication-detail-hero__media">
+      <img
+        src="{% if publication_image contains '://' %}{{ publication_image }}{% else %}{{ publication_image | prepend: '/images/' | prepend: base_path }}{% endif %}"
+        alt="{{ page.title }}">
+    </div>
+  {% endif %}
+
+  <div class="publication-detail-hero__body">
+    {% if page.venue or page.date %}
+      <div class="publication-detail-hero__meta">
+        {% if page.venue %}<span>{{ page.venue }}</span>{% endif %}
+        {% if page.date %}<span>{{ page.date | date: "%Y" }}</span>{% endif %}
+      </div>
+    {% endif %}
+
+    {% if page.excerpt %}
+      <p class="publication-detail-hero__excerpt">{{ page.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+    {% endif %}
+
+    <div class="publication-detail-hero__actions">
+      {% if page.paperurl %}
+        <a class="publication-card__button" href="{{ page.paperurl }}">Paper</a>
+      {% endif %}
+      {% if page.slidesurl %}
+        <a class="publication-card__button" href="{{ page.slidesurl }}">Slides</a>
+      {% endif %}
+      {% if page.bibtexurl %}
+        <a class="publication-card__button" href="{{ page.bibtexurl }}">BibTeX</a>
+      {% endif %}
+    </div>
+  </div>
+</section>

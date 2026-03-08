@@ -166,35 +166,53 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    min-width: 2.7rem;
-    min-height: 1.7rem;
-    padding: 0.1rem 0.55rem;
+    width: 3.2rem;
+    height: 3.2rem;
+    border: 4px solid #102a43;
     border-radius: 999px;
+    background: #0b0b0b;
     color: #fff;
-    font-size: 0.74rem;
+    font-size: 0.68rem;
     font-weight: 800;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.04em;
+    line-height: 1.05;
+    text-align: center;
     text-transform: uppercase;
   }
 
   .home-venue-badge--cvpr {
-    background: linear-gradient(135deg, #0b3c5d 0%, #11698e 100%);
+    border-color: #0f6c8d;
   }
 
   .home-venue-badge--media {
-    background: linear-gradient(135deg, #8b5e34 0%, #c08a3e 100%);
+    border-color: #a9762b;
   }
 
   .home-venue-badge--tmi {
-    background: linear-gradient(135deg, #1f4d78 0%, #2d6a9f 100%);
+    border-color: #111;
   }
 
   .home-venue-badge--nature {
-    background: linear-gradient(135deg, #7b1e3b 0%, #b23a5d 100%);
+    border-color: #e5093c;
   }
 
   .home-venue-badge--miccai {
-    background: linear-gradient(135deg, #285943 0%, #3b7a57 100%);
+    border-color: #2b7a5a;
+  }
+
+  .home-venue-badge strong,
+  .home-venue-badge span {
+    display: block;
+  }
+
+  .home-venue-badge strong {
+    font-size: 0.92rem;
+    letter-spacing: 0;
+  }
+
+  .home-venue-badge span {
+    font-size: 0.58rem;
+    letter-spacing: 0.05em;
   }
 
   .home-inline-list {

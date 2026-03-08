@@ -58,47 +58,47 @@ redirect_from:
   <h2 class="home-section-title">Featured Publications</h2>
   <div class="home-card-grid">
     <article class="home-card">
-      <div class="home-card-meta"><span class="home-venue-badge home-venue-badge--cvpr">CVPR</span> <span>2026</span></div>
+      <div class="home-card-meta"><span class="home-venue-badge home-venue-badge--cvpr"><strong>CVPR</strong><span>conf.</span></span> <span>2026</span></div>
       <h3><a href="/publications/CVPR2026_CARE/">CARE</a></h3>
       <p>A molecular-guided pathology foundation model with adaptive region modeling for whole-slide image analysis across 33 downstream tasks.</p>
     </article>
     <article class="home-card">
-      <div class="home-card-meta"><span class="home-venue-badge home-venue-badge--media">MedIA</span> <span>2026</span></div>
+      <div class="home-card-meta"><span class="home-venue-badge home-venue-badge--media"><strong>MedIA</strong><span>journal</span></span> <span>2026</span></div>
       <h3><a href="/publications/MedIA2026_PH2ST/">PH2ST</a></h3>
       <p>A spatial transcriptomics-guided hypergraph framework that uses limited ST signals to drive multi-scale histological learning.</p>
     </article>
     <article class="home-card">
-      <div class="home-card-meta"><span class="home-venue-badge home-venue-badge--nature">NC</span> <span>2025</span></div>
+      <div class="home-card-meta"><span class="home-venue-badge home-venue-badge--nature"><strong>Nature</strong><span>Cancer</span></span> <span>2025</span></div>
       <h3><a href="/publications/SMMILe2025/">SMMILe</a></h3>
       <p>A measurable multi-instance learning framework for accurate spatial quantification and clinically useful pathology analysis.</p>
     </article>
     <article class="home-card">
-      <div class="home-card-meta"><span class="home-venue-badge home-venue-badge--tmi">TMI</span> <span>2023</span></div>
+      <div class="home-card-meta"><span class="home-venue-badge home-venue-badge--tmi"><strong>IEEE</strong><span>TMI</span></span> <span>2023</span></div>
       <h3><a href="/publications/TMI2023/">Childhood leukemia classification via information bottleneck enhanced hierarchical multi-instance learning</a></h3>
       <p>A hierarchical multi-instance learning framework with an information bottleneck for patient-level leukemia classification from bone marrow smears.</p>
     </article>
     <article class="home-card">
-      <div class="home-card-meta"><span class="home-venue-badge home-venue-badge--media">MedIA</span> <span>2023</span></div>
+      <div class="home-card-meta"><span class="home-venue-badge home-venue-badge--media"><strong>MedIA</strong><span>journal</span></span> <span>2023</span></div>
       <h3><a href="/publications/MedIA2023/">A semi-supervised multi-task learning framework for cancer classification with weak annotation in whole-slide images</a></h3>
       <p>A semi-supervised multi-task framework that jointly learns cancer region detection and subtype classification under weak supervision in whole-slide images.</p>
     </article>
     <article class="home-card">
-      <div class="home-card-meta"><span class="home-venue-badge home-venue-badge--tmi">TMI</span> <span>2022</span></div>
+      <div class="home-card-meta"><span class="home-venue-badge home-venue-badge--tmi"><strong>IEEE</strong><span>TMI</span></span> <span>2022</span></div>
       <h3><a href="/publications/TMI2022/">Unsupervised representation learning for tissue segmentation in histopathological images: From global to local contrast</a></h3>
       <p>An unsupervised multi-granularity representation learning framework for tissue segmentation in histopathology.</p>
     </article>
     <article class="home-card">
-      <div class="home-card-meta"><span class="home-venue-badge home-venue-badge--miccai">MICCAI</span> <span>2021</span></div>
+      <div class="home-card-meta"><span class="home-venue-badge home-venue-badge--miccai"><strong>MICCAI</strong><span>conf.</span></span> <span>2021</span></div>
       <h3><a href="/publications/MICCAI2021_0/">Nuclei grading of clear cell renal cell carcinoma in histopathological image by composite high-resolution network</a></h3>
       <p>A composite high-resolution framework for nuclei grading in clear cell renal cell carcinoma pathology images.</p>
     </article>
     <article class="home-card">
-      <div class="home-card-meta"><span class="home-venue-badge home-venue-badge--miccai">MICCAI</span> <span>2021</span></div>
+      <div class="home-card-meta"><span class="home-venue-badge home-venue-badge--miccai"><strong>MICCAI</strong><span>conf.</span></span> <span>2021</span></div>
       <h3><a href="/publications/MICCAI2021_1/">Instance-based vision transformer for subtyping of papillary renal cell carcinoma in histopathological image</a></h3>
       <p>An instance-based vision transformer for fine-grained papillary renal cell carcinoma subtyping from histopathological images.</p>
     </article>
     <article class="home-card">
-      <div class="home-card-meta"><span class="home-venue-badge home-venue-badge--miccai">MICCAI</span> <span>2020</span></div>
+      <div class="home-card-meta"><span class="home-venue-badge home-venue-badge--miccai"><strong>MICCAI</strong><span>conf.</span></span> <span>2020</span></div>
       <h3><a href="/publications/MICCAI2020/">Renal cell carcinoma detection and subtyping with minimal point-based annotation in whole-slide images</a></h3>
       <p>A weakly supervised framework showing how minimal point annotations can support effective renal cancer detection and subtyping on whole-slide images.</p>
     </article>
