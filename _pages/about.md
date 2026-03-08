@@ -68,14 +68,24 @@ redirect_from:
       <p>A spatial transcriptomics-guided hypergraph framework that uses limited ST signals to drive multi-scale histological learning.</p>
     </article>
     <article class="home-card">
-      <div class="home-card-meta">WWW 2026</div>
-      <h3><a href="/publications/WWW2026_HAAF/">HAAF</a></h3>
-      <p>A hierarchical vision-language adaptation method for few-shot pathology anomaly detection with cross-level alignment.</p>
+      <div class="home-card-meta">IEEE Transactions on Medical Imaging 2023</div>
+      <h3><a href="/publications/TMI2023/">Childhood leukemia classification via information bottleneck enhanced hierarchical multi-instance learning</a></h3>
+      <p>A first-author TMI paper introducing hierarchical multi-instance learning with an information bottleneck for patient-level leukemia classification from bone marrow smears.</p>
     </article>
     <article class="home-card">
       <div class="home-card-meta">Nature Cancer 2025</div>
       <h3><a href="/publications/SMMILe2025/">SMMILe</a></h3>
       <p>A measurable multi-instance learning framework for accurate spatial quantification and clinically useful pathology analysis.</p>
+    </article>
+    <article class="home-card">
+      <div class="home-card-meta">Medical Image Analysis 2023</div>
+      <h3><a href="/publications/MedIA2023/">A semi-supervised multi-task learning framework for cancer classification with weak annotation in whole-slide images</a></h3>
+      <p>A first-author MedIA paper that jointly learns cancer region detection and subtype classification under weak supervision in whole-slide images.</p>
+    </article>
+    <article class="home-card">
+      <div class="home-card-meta">MICCAI 2021</div>
+      <h3><a href="/publications/MICCAI2021_1/">Instance-based vision transformer for subtyping of papillary renal cell carcinoma in histopathological image</a></h3>
+      <p>A first-author MICCAI paper using nuclei-centered instances and transformer modeling for fine-grained renal cancer subtyping.</p>
     </article>
   </div>
 </section>
