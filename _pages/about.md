@@ -6,53 +6,134 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a postdoctoral researcher in the Department of Oncology at the University of Cambridge, affiliated with the [Crispin Lab](https://www.crispinlab.com/) at the CRUK Cambridge Centre and the Early Cancer Institute. My current research is funded by GE Healthcare. I am also a Postdoctoral Fellow of Trinity College, University of Cambridge.
+<section class="home-hero">
+  <div class="home-kicker">Computational Pathology and Multimodal AI</div>
+  <h1>Zeyu Gao</h1>
+  <p class="home-lead">I am a postdoctoral researcher in the Department of Oncology at the University of Cambridge, affiliated with the <a href="https://www.crispinlab.com/">Crispin Lab</a>, the CRUK Cambridge Centre, and the Early Cancer Institute. My work develops machine learning methods for whole-slide pathology, multimodal foundation models, spatial omics, and clinically relevant prediction from histopathology.</p>
+  <p class="home-meta">Postdoctoral Fellow, Trinity College Cambridge. Current research support from GE HealthCare.</p>
+  <div class="home-actions">
+    <a class="home-button" href="/publications/">View Publications</a>
+    <a class="home-button is-secondary" href="/talks/">View Talks</a>
+    <a class="home-button is-secondary" href="/cv/">Download CV</a>
+  </div>
+  <div class="home-glance">
+    <div class="home-glance-item">
+      <div class="home-glance-label">Current Focus</div>
+      <p>Foundation models, weak supervision, spatial transcriptomics, and robust whole-slide image analysis.</p>
+    </div>
+    <div class="home-glance-item">
+      <div class="home-glance-label">Application Area</div>
+      <p>Cancer diagnosis, prognosis, molecular prediction, spatial quantification, and anomaly detection.</p>
+    </div>
+    <div class="home-glance-item">
+      <div class="home-glance-label">Research Style</div>
+      <p>Method-driven work grounded in clinically meaningful pathology problems and translational impact.</p>
+    </div>
+  </div>
+</section>
 
-I received my Ph.D. in Computer Science from Xi’an Jiaotong University in 2023, where I was jointly trained by the School of Computer Science and the School of Mathematics and Statistics, under the supervision of Prof. Chen Li and Prof. Deyu Meng.
-Before that, I obtained my M.S. degree from the School of Artificial Intelligence, Xidian University, under the supervision of Prof. Xiangrong Zhang.
+<section class="home-section">
+  <h2 class="home-section-title">Research Directions</h2>
+  <div class="home-card-grid">
+    <article class="home-card">
+      <h3>Pathology foundation models</h3>
+      <p>I study representation learning for pathology at scale, with an emphasis on adaptive region modeling, multimodal alignment, and data-efficient pretraining for whole-slide image analysis.</p>
+    </article>
+    <article class="home-card">
+      <h3>Spatial and molecular prediction</h3>
+      <p>My recent work links tissue morphology with transcriptomic, proteomic, and spatial signals to improve biomarker prediction and tissue-level interpretation.</p>
+    </article>
+    <article class="home-card">
+      <h3>Weakly supervised slide analysis</h3>
+      <p>I develop multi-instance, semi-supervised, and contrastive learning approaches that extract slide-level and region-level information from sparse or weak annotation.</p>
+    </article>
+    <article class="home-card">
+      <h3>Reliable clinical AI</h3>
+      <p>I am interested in robustness, out-of-distribution detection, explainability, and deployment-oriented evaluation for computational pathology systems.</p>
+    </article>
+  </div>
+</section>
 
-Research
-------
-My current research focuses on computational pathology, specifically on the development and application of machine learning and deep learning models to extract clinically relevant information from histopathological images, thereby improving the accuracy of cancer diagnosis and treatment prediction.
+<section class="home-section">
+  <h2 class="home-section-title">Featured Publications</h2>
+  <div class="home-card-grid">
+    <article class="home-card">
+      <div class="home-card-meta">CVPR 2026</div>
+      <h3><a href="/publications/CVPR2026_CARE/">CARE</a></h3>
+      <p>A molecular-guided pathology foundation model with adaptive region modeling for whole-slide image analysis across 33 downstream tasks.</p>
+    </article>
+    <article class="home-card">
+      <div class="home-card-meta">Medical Image Analysis 2026</div>
+      <h3><a href="/publications/MedIA2026_PH2ST/">PH2ST</a></h3>
+      <p>A spatial transcriptomics-guided hypergraph framework that uses limited ST signals to drive multi-scale histological learning.</p>
+    </article>
+    <article class="home-card">
+      <div class="home-card-meta">WWW 2026</div>
+      <h3><a href="/publications/WWW2026_HAAF/">HAAF</a></h3>
+      <p>A hierarchical vision-language adaptation method for few-shot pathology anomaly detection with cross-level alignment.</p>
+    </article>
+    <article class="home-card">
+      <div class="home-card-meta">Nature Cancer 2025</div>
+      <h3><a href="/publications/SMMILe2025/">SMMILe</a></h3>
+      <p>A measurable multi-instance learning framework for accurate spatial quantification and clinically useful pathology analysis.</p>
+    </article>
+  </div>
+</section>
 
-My work involves the analysis of pathological images across multiple scales and leverages a range of learning paradigms—including semi-supervised learning, multi-instance learning, contrastive learning, vision-language models, and diffusion models to tackle various challenges in computational pathology.
+<section class="home-section">
+  <h2 class="home-section-title">Selected Talks and Presentations</h2>
+  <ol class="home-inline-list">
+    <li>
+      <strong>March 2026</strong> · <a href="/talks/2026-03-AIPO-Webinar/">Multimodal Foundation Models</a>
+      <p>Invited webinar talk for the 5th Artificial Intelligence in Precision Oncology webinar series.</p>
+    </li>
+    <li>
+      <strong>September 2025</strong> · <a href="/talks/2025-09-Paris/">Multimodal AI for Cancer Research</a>
+      <p>Invited talk at the ESMO Molecular Analysis for Precision Oncology Congress in Paris.</p>
+    </li>
+    <li>
+      <strong>August 2025</strong> · <a href="/talks/2025-08-OxML/">Multiomics for Cancer</a>
+      <p>Invited lecture at Oxford ML School 2025.</p>
+    </li>
+    <li>
+      <strong>June 2025</strong> · <a href="/talks/2025-06-Corfu/">Multimodal and Multiomics Foundation Models</a>
+      <p>Invited lecture at the Artificial Intelligence in Cancer Research Summer School 2025 in Corfu.</p>
+    </li>
+  </ol>
+</section>
 
-Education
-------
+<section class="home-section">
+  <h2 class="home-section-title">Recent Highlights</h2>
+  <div class="home-compact">
+    <div class="home-compact-item">
+      <strong>February 2026</strong>
+      <p><a href="/publications/CVPR2026_CARE/">CARE</a> was accepted to CVPR 2026.</p>
+    </div>
+    <div class="home-compact-item">
+      <strong>February 2026</strong>
+      <p><a href="/publications/MedIA2026_PH2ST/">PH2ST</a> was accepted to <em>Medical Image Analysis</em>.</p>
+    </div>
+    <div class="home-compact-item">
+      <strong>January 2026</strong>
+      <p><a href="/publications/WWW2026_HAAF/">HAAF</a> was accepted to WWW 2026.</p>
+    </div>
+    <div class="home-compact-item">
+      <strong>November 2025</strong>
+      <p><a href="/publications/SMMILe2025/">SMMILe</a> was published in <em>Nature Cancer</em>.</p>
+    </div>
+  </div>
+</section>
 
-- **Xi’an Jiaotong University**, Ph.D. in Computer Science [*Sept 2019 – June 2023*]
-  - **Thesis:** *Research on Deep Learning Method for Multi-level Tasks of Pathological Image Analysis*
-
-- **Xidian University**, M.S. in Artificial Intelligence [*Sept 2014 – June 2017*]
-
-- **Xidian University**, B.S. in Electronic Engineering  [*Sept 2010 – June 2014*]
-
-Selected Honors & Awards
-------
-- Postdoc Fellow, Trinity College, University of Cambridge, 2024-2026
-- Excellent Postgraduate of Xi’an Jiaotong University 2021-2022.
-- MICCAI Student Travel Award, 2021.
-
-Recent news and activities
-------
-- [Mar. 2026] Honored to be invited as a speaker at the 5th [Webinar](https://www.events.gr/el/events/event/1224-artificial-intelligence-in-precision-oncology) on Artificial Intelligence in Precision Oncology, jointly organized by HeCOG and ESAC, where I presented “Multimodal Foundation Models.”
-- [Feb. 2026] Excited to share that our paper “CARE: A Molecular-Guided Foundation Model with Adaptive Region Modeling for Whole Slide Image Analysis” has been accepted to CVPR 2026, [preprint here](https://arxiv.org/abs/2602.21637). CARE introduces a molecular-guided foundation model with adaptive region modeling, achieving state-of-the-art performance across 33 whole-slide image analysis tasks while using only one-tenth of the training data.
-- [Feb. 2026]  Excited to share that our paper “PH2ST: ST-Prompt Guided Histological Hypergraph Learning for Spatial Gene Expression Prediction” has been accepted to [Medical Image Analysis](https://www.sciencedirect.com/science/article/pii/S1361841526000770). PH2ST proposes a prompt-guided hypergraph learning framework that leverages limited spatial transcriptomics signals to guide multi-scale histological representation learning, enabling accurate and robust spatial gene expression prediction.
-- [Jan. 2026] Excited to share that our paper “HAAF: Hierarchical Adaptation and Alignment of Foundation Models for Few-Shot Pathology Anomaly Detection” has been accepted to The Web Conference (WWW) 2026 ([arXiv: 2601.17405](https://arxiv.org/abs/2601.17405)). HAAF proposes a hierarchical vision–language adaptation framework with cross-level alignment to improve few-shot pathology anomaly detection.
-- [Jan. 2026] Excited to share our new paper, “MegaSeg: Towards Scalable Semantic Segmentation for Megapixel Images”, which I supervised, has been accepted by [Medical Image Analysis](https://www.sciencedirect.com/science/article/abs/pii/S1361841526000022)! This work introduces a scalable segmentation framework for megapixel whole-slide pathology images that preserves fine-grained morphology.
-- [Nov. 2025] Delighted to share that our [Nature Cancer](https://www.nature.com/articles/s43018-025-01060-8) paper "SMMILe enables accurate spatial quantification in digital pathology using multiple-instance learning", a new AI tool that rapidly analyses complex cancer slides and delivers precise spatial tumour mapping from weak labels, is now published, [more details](https://www.cam.ac.uk/research/news/ai-tool-can-analyse-complex-cancer-images-rapidly-offering-potential-to-personalise-treatment)!
-- [Nov. 2025] Delighted to present a poster on “Diffusion-Based HRD Score Prediction from H&E-Stained Whole-Slide Images in Breast and Gynaecologic Cancers” at the [ESMO AI & Digital Oncology Congress](https://www.esmorwd.org/article/S2949-8201(25)00298-X/fulltext) 2025, Berlin, Germany.
-- [Sep. 2025] Delighted to share that our project "ProGIS: Prototype-Guided Interactive Segmentation for Pathological Images", which I supervised, has been accepted by [IEEE Trans on Medical Imaging](https://ieeexplore.ieee.org/abstract/document/11168941)! This work introduces a novel interactive segmentation framework tailored for tissue image analysis.
-- [Sep. 2025] Honored to give an invited talk on *“Multimodal AI for Cancer Research”* at the [ESMO MAP Congress 2025](https://www.esmo.org/meeting-calendar/molecular-analysis-for-precision-oncology-congress-2025/programme), Paris, France.
-- [Aug. 2025] Proud to share that this important project (which I supervised), “StaDis: Stability distance to detecting out-of-distribution data in computational pathology”, has been accepted by [Medical Image Analysis](https://www.sciencedirect.com/science/article/pii/S1361841525003202)! A key step toward robust and reliable OOD detection in computational pathology!
-- [Aug. 2025] Honored to give an invited lecture on *“Multiomics for Cancer”* at the [Oxford ML School 2025](https://www.oxfordml.school/2025-health), Oxford, UK.
-- [Jul. 2025] Proud to share that this impactful dataset project (which I supervised), "A fully annotated pathology slide dataset for early gastric cancer and precancerous lesions" has been accepted by [Nature Scientific Data](https://www.nature.com/articles/s41597-025-05679-1)! An important resource for computational pathology and early gastric cancer research!
-- [Jul. 2025] Proud to share that the first project I’ve supervised at University of Cambridge, “CoxKAN: Kolmogorov–Arnold Networks for interpretable, high-performance survival analysis”, has been accepted by [Bioinformatics](https://doi.org/10.1093/bioinformatics/btaf413)! Nearly a year in the making, and already 15 citations on [arXiv](https://arxiv.org/abs/2409.04290)!
-- [Jun. 2025] Our special issue *"Can AI Care? Affective LLMs for the Future of Mental Health"* is now live on *IEEE Transactions on Affective Computing*. The issue aims to explore how large language models can support mental health through affective computing. Submissions are now open [here](https://www.computer.org/digital-library/journals/ta/can-ai-care-mental-health).
-- [Jun. 2025] Honored to give an invited lecture on *“Multimodal and Multiomics Foundation Models”* at the [Artificial Intelligence in Cancer Research Summer School 2025](https://www.aicancer2025.org/), Corfu, Greece.
-- [May. 2025] Delighted to present a poster on *“ALPaCA: Adapting Llama for Pathology Context Analysis”* at the [Artificial Intelligence for Oncology Conference](https://www.aiforoncology.it/), Milan, Italy.
-- [Apr. 2025] Presented a poster entitled *“Bridging whole slide images and large language model for slide-level question answering”* at the [AACR Annual Meeting 2025](https://aacrjournals.org/cancerres/article/85/8_Supplement_1/2438/757197), Chicago, US.
-- [Oct. 2024] Gave a flash talk and presented a poster on *“Accurate Spatial Quantification in Computational Pathology with Multiple Instance Learning: SMMILe”* at the CRUK CI/CC Retreat 2024, Cambridge, UK.
-- [Jul. 2024] Invited to speak on *“Accurate Spatial Quantification and WSI Classification with Measurable Multi-Instance Learning”* at the [ICM Symposium 2024](https://www.integratedcancermedicine.org/news/icm-symposium-machine-learning-and-ai-for-hard-to-treat-cancers-datasets-pipelines-and-clinical-implementation/), Cambridge, UK.
-- [Jun. 2024] Honored to give an invited talk on *“Measurable Multi-Instance Learning for Cancer Classification and Spatial Quantification”* at the [C2D3 Computational Biology Annual Symposium 2024](https://www.c2d3.cam.ac.uk/index.php/events/c2d3-computational-biology-annual-symposium-2024), Cambridge, UK.
-- [Jan. 2024] Organized the workshop *“Integrating Deep Learning with Pathology for Cancer Diagnosis and Research”* at the [Cambridge University Oncology Society Annual Conference 2024](https://www.instagram.com/p/C1hJpnBsK-W/), Cambridge, UK.
+<section class="home-section">
+  <h2 class="home-section-title">Background</h2>
+  <div class="home-card-grid">
+    <article class="home-card">
+      <h3>Training</h3>
+      <p>I received my Ph.D. in Computer Science from Xi’an Jiaotong University in 2023, jointly trained by the School of Computer Science and the School of Mathematics and Statistics under the supervision of Prof. Chen Li and Prof. Deyu Meng. Before that, I completed my M.S. in Artificial Intelligence and B.S. in Electronic Engineering at Xidian University.</p>
+    </article>
+    <article class="home-card">
+      <h3>Selected Honors</h3>
+      <p>Postdoctoral Fellow, Trinity College Cambridge (2024-2026); Excellent Postgraduate of Xi’an Jiaotong University (2021-2022); MICCAI Student Travel Award (2021).</p>
+    </article>
+  </div>
+</section>
