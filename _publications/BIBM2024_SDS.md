@@ -1,6 +1,7 @@
 ---
 title: "Shallow-Deep Synergy: Boosting Cross-Domain Generalization in Histopathological Image Segmentation"
 collection: publications
+permalink: /publications/BIBM2024/
 category: conferences
 date: 2024-12-03
 venue: '2024 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)'

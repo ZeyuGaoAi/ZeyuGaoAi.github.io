@@ -1,6 +1,7 @@
 ---
 title: "Pamil: Prototype attention-based multiple instance learning for whole slide image classification"
 collection: publications
+permalink: /publications/MICCAI2024/
 category: conferences
 date: 2024-10-07
 venue: 'International Conference on Medical Image Computing and Computer-Assisted Intervention'

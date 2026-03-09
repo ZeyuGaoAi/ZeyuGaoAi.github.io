@@ -1,6 +1,7 @@
 ---
 title: "Renal cell carcinoma detection and subtyping with minimal point-based annotation in whole-slide images"
 collection: publications
+permalink: /publications/MICCAI2020/
 category: conferences
 date: 2020-09-29
 venue: 'International Conference on Medical Image Computing and Computer-Assisted Intervention'

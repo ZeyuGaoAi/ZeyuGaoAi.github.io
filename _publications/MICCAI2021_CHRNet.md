@@ -1,6 +1,7 @@
 ---
 title: "Nuclei Grading of Clear Cell Renal Cell Carcinoma in Histopathological Image by Composite High-Resolution Network"
 collection: publications
+permalink: /publications/MICCAI2021_0/
 category: conferences
 date: 2021-09-27
 venue: 'International Conference on Medical Image Computing and Computer-Assisted Intervention'

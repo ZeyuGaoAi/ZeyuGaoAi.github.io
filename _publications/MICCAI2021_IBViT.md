@@ -1,6 +1,7 @@
 ---
 title: "Instance-based vision transformer for subtyping of papillary renal cell carcinoma in histopathological image"
 collection: publications
+permalink: /publications/MICCAI2021_1/
 category: conferences
 date: 2021-09-27
 venue: 'International Conference on Medical Image Computing and Computer-Assisted Intervention'

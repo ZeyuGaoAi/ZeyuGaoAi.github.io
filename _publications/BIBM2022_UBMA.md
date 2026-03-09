@@ -1,6 +1,7 @@
 ---
 title: "Uncertainty-based Model Acceleration for Cancer Classification in Whole-Slide Images"
 collection: publications
+permalink: /publications/BIBM2023/
 category: conferences
 date: 2022-12-06
 venue: '2022 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)'
