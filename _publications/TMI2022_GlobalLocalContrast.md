@@ -2,6 +2,7 @@
 title: "Unsupervised representation learning for tissue segmentation in histopathological images: From global to local contrast"
 collection: publications
 category: manuscripts
+permalink: /publications/TMI2022/
 date: 2022-07-15
 venue: 'IEEE Transactions on Medical Imaging'
 paperurl: https://ieeexplore.ieee.org/abstract/document/9830779

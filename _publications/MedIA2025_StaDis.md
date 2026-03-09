@@ -2,6 +2,7 @@
 title: "StaDis: Stability distance to detecting out-of-distribution data in computational pathology"
 collection: publications
 category: manuscripts
+permalink: /publications/MedIA_StaDis/
 date: 2025-08-27
 venue: 'Medical Image Analysis'
 paperurl: https://www.sciencedirect.com/science/article/pii/S1361841525003202

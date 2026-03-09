@@ -2,6 +2,7 @@
 title: "CoxKAN: Kolmogorov-Arnold networks for interpretable, High-Performance survival analysis"
 collection: publications
 category: manuscripts
+permalink: /publications/CoxKAN/
 date: 2025-07-21
 venue: 'Bioinfomatics'
 paperurl: https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btaf413/8209483

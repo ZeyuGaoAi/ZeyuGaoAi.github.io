@@ -2,6 +2,7 @@
 title: "Childhood leukemia classification via information bottleneck enhanced hierarchical multi-instance learning"
 collection: publications
 category: manuscripts
+permalink: /publications/TMI2023/
 date: 2023-02-23
 venue: 'IEEE Transactions on Medical Imaging'
 paperurl: https://ieeexplore.ieee.org/abstract/document/10050510
