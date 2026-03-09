@@ -90,6 +90,13 @@ Current homepage sections:
 
 If this section becomes too long later, reduce it to the best 6-8 items.
 
+Current ordering rule:
+- order by year, newest to oldest
+
+Current venue badge rule:
+- use local badge graphics rather than plain text pills
+- badge assets live in `images/venue-badges/`
+
 ## Publications Page Logic
 
 Publications page:
@@ -116,36 +123,28 @@ Current design goals:
 - If a paper has a good figure / graphical abstract / representative main figure, use it as:
   - `header.teaser`
 - This is added in each publication markdown file.
+- Local paper figures live in:
+  - `images/papers/`
+- Figure naming rule:
+  - match the publication markdown filename stem whenever possible
+  - examples:
+    - `TMI2023_MGTrans.md` -> `images/papers/TMI2023_MGTrans.png`
+    - `MICCAI2024_PAMIL.md` -> `images/papers/MICCAI2024_PAMIL.png`
 - If no figure is available yet:
   - publication cards fall back to a styled placeholder block using venue/year
 - This means missing images do not block page quality.
 
-Already connected with teaser images:
-- `MedIA2023.md`
-- `SMMILe2025.md`
-- `SciRep2024_EffusionViT.md`
-- `HiESD.md`
+Current status:
+- all current publication entries now have a connected local teaser image
+- publication cards and single-paper pages should both show the same figure when `header.teaser` is present
 
-Still missing user-supplied main figures for many papers, especially from:
-- IEEE
-- Springer / MICCAI
-- arXiv
-- some newer ScienceDirect papers without easily accessible graphical abstracts
-
-Priority papers to supply figures for:
-- `CVPR2026_CARE.md`
-- `MedIA2026_PH2ST.md`
-- `MedIA_Megaseg.md`
-- `MedIA_StaDis.md`
-- `TMI2022.md`
-- `TMI2023.md`
-- `TMI2023_MGTrans.md`
-- `TMI2023_SGMF.md`
-- `TMI2025.md`
-- `MICCAI2020.md`
-- `MICCAI2021_0.md`
-- `MICCAI2021_1.md`
-- `MICCAI2024.md`
+When adding new paper images later:
+1. save the figure into `images/papers/`
+2. make the filename match the publication file stem if possible
+3. add or update:
+   - `header:`
+   - `  teaser: "papers/<filename>"`
+4. if an older image already exists, replacing the local file is often enough
 
 ## Background Section Rule
 
@@ -164,6 +163,7 @@ Priority papers to supply figures for:
 - no long homepage news dump
 - no list-only publications page if card layout already exists
 - no repetitive self-labeling like `first-author` in homepage summaries
+- no external hotlinked paper figures when a local copy can be stored
 
 ## Good Update Workflow
 
@@ -176,14 +176,42 @@ When updating the website later, use this order:
 2. If a new paper should appear strongly on the site:
    - decide whether it belongs in `Featured Publications`
    - add `header.teaser` if a representative figure exists
+   - keep the publication filename human-readable using `VenueYear_ShortName.md`
 3. If a new talk is mentioned on the homepage:
    - add a corresponding `_talks/` entry
 4. Only then refine style if needed
 5. Keep homepage curated rather than exhaustive
+6. Preserve old publication URLs when renaming files:
+   - add `permalink` to the renamed markdown file
+7. Push with SSH if HTTPS push is unstable:
+   - `git push git@github.com:ZeyuGaoAi/ZeyuGaoAi.github.io.git master`
+
+## Publication Naming Rule
+
+- Avoid generic filenames like:
+  - `BIBM2024.md`
+  - `MICCAI2021_0.md`
+- Prefer:
+  - `VenueYear_ShortName.md`
+- Current examples:
+  - `BIBM2022_UBMA.md`
+  - `BIBM2024_SDS.md`
+  - `MICCAI2020_MinPointRCC.md`
+  - `MICCAI2021_CHRNet.md`
+  - `MICCAI2021_IBViT.md`
+  - `MICCAI2024_PAMIL.md`
+  - `TMI2022_GlobalLocalContrast.md`
+  - `TMI2023_LeukemiaMIL.md`
+  - `MedIA2023_MinPointMTL.md`
+
+When renaming existing publication files:
+1. rename the markdown file
+2. update the corresponding local figure filename if one exists
+3. add a `permalink` preserving the old `/publications/.../` route
+4. verify the publication card and single-paper page still render correctly
 
 ## Suggested Next Improvements
 
-- continue adding main figures to high-priority publications
 - refine publication card layout after more teaser images are supplied
 - possibly reduce homepage featured publications count if the section becomes visually dense
 - improve SEO / social preview metadata later
