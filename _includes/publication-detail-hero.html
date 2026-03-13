@@ -8,6 +8,16 @@
 {% endif %}
 
 <section class="publication-detail-hero">
+  <div class="publication-detail-hero__header">
+    {% if page.date %}
+      <div class="publication-detail-hero__meta">
+        <span>{{ page.date | date: "%Y" }}</span>
+      </div>
+    {% endif %}
+
+    <h2 class="publication-detail-hero__title">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h2>
+  </div>
+
   {% if publication_image %}
     <div class="publication-detail-hero__media">
       <img
@@ -17,13 +27,6 @@
   {% endif %}
 
   <div class="publication-detail-hero__body">
-    {% if page.venue or page.date %}
-      <div class="publication-detail-hero__meta">
-        {% if page.venue %}<span>{{ page.venue }}</span>{% endif %}
-        {% if page.date %}<span>{{ page.date | date: "%Y" }}</span>{% endif %}
-      </div>
-    {% endif %}
-
     {% if page.excerpt %}
       <p class="publication-detail-hero__excerpt">{{ page.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>
     {% endif %}
