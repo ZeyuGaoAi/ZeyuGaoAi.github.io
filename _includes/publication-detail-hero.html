@@ -35,6 +35,12 @@
       {% if page.paperurl %}
         <a class="publication-card__button" href="{{ page.paperurl }}">Paper</a>
       {% endif %}
+      {% if page.modelurl %}
+        <a class="publication-card__button" href="{{ page.modelurl }}">Model</a>
+      {% endif %}
+      {% if page.codeurl %}
+        <a class="publication-card__button" href="{{ page.codeurl }}">Code</a>
+      {% endif %}
       {% if page.slidesurl %}
         <a class="publication-card__button" href="{{ page.slidesurl }}">Slides</a>
       {% endif %}

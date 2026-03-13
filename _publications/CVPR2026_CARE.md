@@ -5,6 +5,8 @@ category: conferences
 date: 2026-03-05
 venue: 'IEEE/CVF Conference on Computer Vision and Pattern Recognition'
 paperurl: https://arxiv.org/abs/2602.21637
+modelurl: https://huggingface.co/Zipper-1/CARE
+codeurl: https://github.com/zdipath/CARE
 header:
   teaser: "papers/CVPR2026_CARE.jpg"
 citation: 'D Zhang, Z Gong, X Pang, J Liu, J Lu, H Cui, J Ge, Z Zeng, K Yi, Y Li, S Liu, T Yu, H Wang, M Crispin-Ortuzar, W Yu, C Li, <strong>Z Gao*</strong>. CARE: A Molecular-Guided Foundation Model with Adaptive Region Modeling for Whole Slide Image Analysis. Accepted to IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026.'
