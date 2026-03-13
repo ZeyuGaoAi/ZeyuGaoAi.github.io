@@ -25,16 +25,20 @@
 }
 
 .publication-card__media {
-  display: block;
-  aspect-ratio: 16 / 9;
-  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 16rem;
+  padding: 0 1.2rem 1.2rem;
   background: #edf2f7;
 }
 
 .publication-card__media img {
+  display: block;
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
+  max-height: 22rem;
+  object-fit: contain;
   transition: transform 0.2s ease;
 }
 
@@ -76,7 +80,11 @@
   flex: 1;
   flex-direction: column;
   gap: 0.9rem;
-  padding: 1.15rem 1.2rem 1.2rem;
+  padding: 1.15rem 1.2rem 0;
+}
+
+.publication-card__body--content {
+  padding: 1rem 1.2rem 1.2rem;
 }
 
 .publication-card__meta {
