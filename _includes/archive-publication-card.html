@@ -1,6 +1,33 @@
 {% include base_path %}
 
 {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% assign short_venue = post.shortvenue %}
+
+{% unless short_venue %}
+  {% if post.venue == "Medical Image Analysis" %}
+    {% assign short_venue = "MedIA" %}
+  {% elsif post.venue == "IEEE Transactions on Medical Imaging" %}
+    {% assign short_venue = "TMI" %}
+  {% elsif post.venue == "Nature Cancer" %}
+    {% assign short_venue = "Nature Cancer" %}
+  {% elsif post.venue == "Bioinfomatics" or post.venue == "Bioinformatics" %}
+    {% assign short_venue = "Bioinformatics" %}
+  {% elsif post.venue contains "Computer Vision and Pattern Recognition" %}
+    {% assign short_venue = "CVPR" %}
+  {% elsif post.venue contains "Medical Image Computing and Computer-Assisted Intervention" %}
+    {% assign short_venue = "MICCAI" %}
+  {% elsif post.venue contains "Bioinformatics and Biomedicine" %}
+    {% assign short_venue = "BIBM" %}
+  {% elsif post.venue contains "The Web Conference" or post.venue contains "(WWW)" %}
+    {% assign short_venue = "WWW" %}
+  {% elsif post.venue contains "Information Fusion" %}
+    {% assign short_venue = "Information Fusion" %}
+  {% elsif post.venue contains "medRxiv" %}
+    {% assign short_venue = "medRxiv" %}
+  {% else %}
+    {% assign short_venue = post.venue %}
+  {% endif %}
+{% endunless %}
 
 {% if post.header.teaser %}
   {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
@@ -12,6 +39,7 @@
   <div class="publication-card__body">
     <div class="publication-card__meta">
       <span>{{ post.date | default: "1900-01-01" | date: "%Y" }}</span>
+      {% if short_venue %}<span>{{ short_venue }}</span>{% endif %}
     </div>
 
     <h3 class="publication-card__title" itemprop="headline">
