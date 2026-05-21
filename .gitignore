@@ -4,6 +4,7 @@ _site/
 
 # Ignore the directory for local files during development
 local/
+tmp/
 
 # Ignore the Gemfile that is generated
 Gemfile.lock
@@ -18,3 +19,6 @@ package-lock.json
 
 # Ignore folders related to IDEs
 .vscode/
+
+# Ignore macOS metadata
+.DS_Store

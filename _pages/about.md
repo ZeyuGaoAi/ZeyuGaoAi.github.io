@@ -58,6 +58,11 @@ redirect_from:
   <h2 class="home-section-title">Featured Publications</h2>
   <div class="home-card-grid">
     <article class="home-card">
+      <div class="home-card-meta"><img class="home-venue-icon" src="/images/venue-badges/icml.svg" alt="ICML badge"> <span>2026</span></div>
+      <h3><a href="/publications/ICML2026_PathCTM/">Thinking in Scales</a></h3>
+      <p>PathCTM accelerates gigapixel pathology analysis through adaptive continuous reasoning across magnifications, reducing patch usage and inference time by about 96% while preserving AUC.</p>
+    </article>
+    <article class="home-card">
       <div class="home-card-meta"><img class="home-venue-icon" src="/images/venue-badges/cvpr.svg" alt="CVPR badge"> <span>2026</span></div>
       <h3><a href="/publications/CVPR2026_CARE/">CARE</a></h3>
       <p>A molecular-guided pathology foundation model with adaptive region modeling for whole-slide image analysis across 33 downstream tasks.</p>
@@ -109,6 +114,10 @@ redirect_from:
   <h2 class="home-section-title">Selected Talks and Presentations</h2>
   <ol class="home-inline-list">
     <li>
+      <strong>May 2026</strong> · <a href="/talks/2026-05-AI-for-Oncology-Milan/">Multimodal foundation models and vision-language models in computational pathology</a>
+      <p>Invited talk at the Artificial Intelligence for Oncology Conference 2026 in Milan.</p>
+    </li>
+    <li>
       <strong>March 2026</strong> · <a href="/talks/2026-03-AIPO-Webinar/">Multimodal Foundation Models</a>
       <p>Invited webinar talk for the 5th Artificial Intelligence in Precision Oncology webinar series.</p>
     </li>
@@ -130,6 +139,10 @@ redirect_from:
 <section class="home-section">
   <h2 class="home-section-title">Recent Highlights</h2>
   <div class="home-compact">
+    <div class="home-compact-item">
+      <strong>May 2026</strong>
+      <p><a href="/publications/ICML2026_PathCTM/">Thinking in Scales</a> was accepted to ICML 2026.</p>
+    </div>
     <div class="home-compact-item">
       <strong>February 2026</strong>
       <p><a href="/publications/CVPR2026_CARE/">CARE</a> was accepted to CVPR 2026.</p>
