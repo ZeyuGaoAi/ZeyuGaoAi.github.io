@@ -14,14 +14,21 @@ author_profile: true
 <!-- New style rendering if publication categories are defined -->
 {% if site.publication_category %}
   {% for category in site.publication_category %}
-    {% assign category_key = category[0] %}
-    {% assign category_posts = site.publications | where_exp: "post", "post.category == category_key or post.categories contains category_key" | reverse %}
+    {% assign category_posts = site.publications | where: "category", category[0] | reverse %}
     {% if category_posts.size > 0 %}
       <section class="publication-section">
         <h2 class="publication-section-title">{{ category[1].title }}</h2>
         <div class="publication-grid">
+          {% if category[0] == "conferences" %}
+            {% assign pathctm_posts = site.publications | where: "url", "/publications/ICML2026_PathCTM/" %}
+            {% for post in pathctm_posts %}
+              {% include archive-publication-card.html %}
+            {% endfor %}
+          {% endif %}
           {% for post in category_posts %}
-            {% include archive-publication-card.html %}
+            {% unless category[0] == "conferences" and post.url == "/publications/ICML2026_PathCTM/" %}
+              {% include archive-publication-card.html %}
+            {% endunless %}
           {% endfor %}
         </div>
       </section>
