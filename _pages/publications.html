@@ -14,7 +14,8 @@ author_profile: true
 <!-- New style rendering if publication categories are defined -->
 {% if site.publication_category %}
   {% for category in site.publication_category %}
-    {% assign category_posts = site.publications | where: "category", category[0] | reverse %}
+    {% assign category_key = category[0] %}
+    {% assign category_posts = site.publications | where_exp: "post", "post.category == category_key or post.categories contains category_key" | reverse %}
     {% if category_posts.size > 0 %}
       <section class="publication-section">
         <h2 class="publication-section-title">{{ category[1].title }}</h2>
@@ -35,4 +36,3 @@ author_profile: true
     </div>
   </section>
 {% endif %}
-
