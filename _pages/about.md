@@ -59,7 +59,7 @@ redirect_from:
   <div class="home-card-grid">
     <article class="home-card">
       <div class="home-card-meta"><img class="home-venue-icon" src="/images/venue-badges/icml.svg" alt="ICML badge"> <span>2026</span></div>
-      <h3><a href="/publications/ICML2026_PathCTM/">Thinking in Scales</a></h3>
+      <h3><a href="/publications/ICML2026_PathCTM/">PathCTM</a></h3>
       <p>PathCTM accelerates gigapixel pathology analysis through adaptive continuous reasoning across magnifications, reducing patch usage and inference time by about 96% while preserving AUC.</p>
     </article>
     <article class="home-card">
@@ -141,7 +141,7 @@ redirect_from:
   <div class="home-compact">
     <div class="home-compact-item">
       <strong>May 2026</strong>
-      <p><a href="/publications/ICML2026_PathCTM/">Thinking in Scales</a> was accepted to ICML 2026.</p>
+      <p><a href="/publications/ICML2026_PathCTM/">PathCTM</a> was accepted to ICML 2026.</p>
     </div>
     <div class="home-compact-item">
       <strong>February 2026</strong>
