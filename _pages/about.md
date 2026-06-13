@@ -140,6 +140,10 @@ redirect_from:
   <h2 class="home-section-title">Recent Highlights</h2>
   <div class="home-compact">
     <div class="home-compact-item">
+      <strong>June 2026</strong>
+      <p><a href="/publications/MICCAI2026_AGE_MIL/">AGE-MIL</a> was accepted to MICCAI 2026.</p>
+    </div>
+    <div class="home-compact-item">
       <strong>May 2026</strong>
       <p><a href="/publications/ICML2026_PathCTM/">PathCTM</a> was accepted to ICML 2026.</p>
     </div>
