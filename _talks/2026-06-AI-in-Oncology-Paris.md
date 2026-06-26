@@ -13,5 +13,5 @@ excerpt: "Invited talk in Plenary 2, AI-Driven Genomics and Omics Integration, a
 Invited speaker at [AI in Oncology 2026](https://www.aiinoncology.com/programme-2026) in Paris, where I presented “From Multimodal Fusion to Multimodal Foundation Models” in Plenary 2, AI-Driven Genomics and Omics Integration.
 
 <p align="center">
-  <img src="../images/2026ParisAIOncology.jpg" width="600"/>
+  <img src="/images/2026ParisAIOncology.jpg" width="600"/>
 </p>
