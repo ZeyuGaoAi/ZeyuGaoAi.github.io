@@ -2,7 +2,7 @@
 title: "From Multimodal Fusion to Multimodal Foundation Models"
 collection: talks
 type: "Invited talk"
-permalink: /talks/2026-06-AI-in-Oncology-Paris
+permalink: /talks/2026-06-AI-in-Oncology-Paris/
 venue: "AI in Oncology 2026"
 date: 2026-06-22
 location: "Paris, France"
