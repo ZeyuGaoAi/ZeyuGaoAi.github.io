@@ -114,6 +114,10 @@ redirect_from:
   <h2 class="home-section-title">Selected Talks and Presentations</h2>
   <ol class="home-inline-list">
     <li>
+      <strong>June 2026</strong> · <a href="/talks/2026-06-Genomic-Medicine-Summer-Conference/">Multimodal Foundation Models and Vision-Language Models in Computational Pathology</a>
+      <p>Invited talk at the Department of Genomic Medicine Summer Conference 2026 in Cambridge.</p>
+    </li>
+    <li>
       <strong>June 2026</strong> · <a href="/talks/2026-06-AI-in-Oncology-Paris/">From Multimodal Fusion to Multimodal Foundation Models</a>
       <p>Invited talk in Plenary 2 at AI in Oncology 2026 in Paris.</p>
     </li>
