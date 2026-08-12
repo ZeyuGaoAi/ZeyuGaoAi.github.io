@@ -148,6 +148,10 @@ redirect_from:
   <h2 class="home-section-title">Recent Highlights</h2>
   <div class="home-compact">
     <div class="home-compact-item">
+      <strong>August 2026</strong>
+      <p><a href="/publications/Bioinformatics2026_LFFA/">LFFA</a> was published in <em>Bioinformatics</em>.</p>
+    </div>
+    <div class="home-compact-item">
       <strong>July 2026</strong>
       <p><a href="/publications/CVPR2026_CARE/">CARE</a> is now supported by <a href="https://github.com/mahmoodlab/TRIDENT">TRIDENT</a>.</p>
     </div>
