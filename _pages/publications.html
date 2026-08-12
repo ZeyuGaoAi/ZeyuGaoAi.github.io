@@ -16,8 +16,11 @@ author_profile: true
   {% for category in site.publication_category %}
     {% assign category_posts = site.publications | where: "category", category[0] | reverse %}
     {% if category_posts.size > 0 %}
-      <section class="publication-section">
-        <h2 class="publication-section-title">{{ category[1].title }}</h2>
+      <details class="publication-section" open>
+        <summary class="publication-section-summary">
+          <span class="publication-section-title">{{ category[1].title }}</span>
+          <span class="publication-section-count">{{ category_posts.size }} publications</span>
+        </summary>
         <div class="publication-grid">
           {% if category[0] == "conferences" %}
             {% assign pathctm_posts = site.publications | where: "url", "/publications/ICML2026_PathCTM/" %}
@@ -31,7 +34,7 @@ author_profile: true
             {% endunless %}
           {% endfor %}
         </div>
-      </section>
+      </details>
     {% endif %}
   {% endfor %}
 {% else %}
