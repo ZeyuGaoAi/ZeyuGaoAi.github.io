@@ -153,6 +153,10 @@ redirect_from:
     </div>
     <div class="home-compact-item">
       <strong>July 2026</strong>
+      <p><a href="/publications/IntelligentOncology2026_FMReview/">A review on multiscale computational pathology</a> was published in <em>Intelligent Oncology</em>.</p>
+    </div>
+    <div class="home-compact-item">
+      <strong>July 2026</strong>
       <p><a href="/publications/CVPR2026_CARE/">CARE</a> is now supported by <a href="https://github.com/mahmoodlab/TRIDENT">TRIDENT</a>.</p>
     </div>
     <div class="home-compact-item">
