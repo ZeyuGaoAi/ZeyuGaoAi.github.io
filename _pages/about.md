@@ -149,6 +149,10 @@ redirect_from:
   <div class="home-compact">
     <div class="home-compact-item">
       <strong>August 2026</strong>
+      <p>A £100,000 Early Detection and Diagnosis Committee Primer Award was funded for multimodal pathology foundation models, with Zeyu as Principal Investigator.</p>
+    </div>
+    <div class="home-compact-item">
+      <strong>August 2026</strong>
       <p><a href="/publications/Bioinformatics2026_LFFA/">LFFA</a> was published in <em>Bioinformatics</em>.</p>
     </div>
     <div class="home-compact-item">
@@ -195,7 +199,7 @@ redirect_from:
     </article>
     <article class="home-card">
       <h3>Selected Honors</h3>
-      <p>Postdoctoral Fellow, Trinity College Cambridge (2024-2026); Excellent Postgraduate of Xi’an Jiaotong University (2021-2022); MICCAI Student Travel Award (2021).</p>
+      <p>Principal Investigator, Early Detection and Diagnosis Committee Primer Award, "Multimodal pathology foundation model for early lesion mapping, quantification, and risk-informed patient management" (£100,000, 2026-2027); Postdoctoral Fellow, Trinity College Cambridge (2024-2026); Excellent Postgraduate of Xi’an Jiaotong University (2021-2022); MICCAI Student Travel Award (2021).</p>
     </article>
   </div>
 </section>
