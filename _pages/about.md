@@ -199,7 +199,12 @@ redirect_from:
     </article>
     <article class="home-card">
       <h3>Selected Honors</h3>
-      <p>Principal Investigator, Early Detection and Diagnosis Committee Primer Award, "Multimodal pathology foundation model for early lesion mapping, quantification, and risk-informed patient management" (£100,000, 2026-2027); Postdoctoral Fellow, Trinity College Cambridge (2024-2026); Excellent Postgraduate of Xi’an Jiaotong University (2021-2022); MICCAI Student Travel Award (2021).</p>
+      <ul>
+        <li>CRUK Primer Award, Principal Investigator (£100,000, 2026-2027).</li>
+        <li>Postdoctoral Fellow, Trinity College Cambridge (2024-2026).</li>
+        <li>Excellent Postgraduate of Xi’an Jiaotong University (2021-2022).</li>
+        <li>MICCAI Student Travel Award (2021).</li>
+      </ul>
     </article>
   </div>
 </section>
