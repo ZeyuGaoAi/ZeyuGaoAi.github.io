@@ -201,6 +201,7 @@ redirect_from:
       <h3>Selected Honors</h3>
       <ul>
         <li>CRUK Primer Award, Principal Investigator (£100,000, 2026-2027).</li>
+        <li>The Royal Society Research Grants 2025 Round 2, Co-Led (£30,000).</li>
         <li>Postdoctoral Fellow, Trinity College Cambridge (2024-2026).</li>
         <li>Excellent Postgraduate of Xi’an Jiaotong University (2021-2022).</li>
         <li>MICCAI Student Travel Award (2021).</li>
