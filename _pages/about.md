@@ -78,6 +78,11 @@ redirect_from:
       <p>A measurable multi-instance learning framework for accurate spatial quantification and clinically useful pathology analysis.</p>
     </article>
     <article class="home-card">
+      <div class="home-card-meta"><img class="home-venue-icon" src="/images/venue-badges/bioinformatics.png" alt="Bioinformatics badge"> <span>2025</span></div>
+      <h3><a href="/publications/CoxKAN/">CoxKAN</a></h3>
+      <p>An interpretable Cox proportional hazards Kolmogorov-Arnold Network for high-performance survival analysis in medicine.</p>
+    </article>
+    <article class="home-card">
       <div class="home-card-meta"><img class="home-venue-icon" src="/images/venue-badges/ieee-tmi.svg" alt="IEEE TMI badge"> <span>2023</span></div>
       <h3><a href="/publications/TMI2023/">Childhood leukemia classification via information bottleneck enhanced hierarchical multi-instance learning</a></h3>
       <p>A hierarchical multi-instance learning framework with an information bottleneck for patient-level leukemia classification from bone marrow smears.</p>
