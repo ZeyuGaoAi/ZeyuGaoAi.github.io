@@ -58,7 +58,7 @@ redirect_from:
   <h2 class="home-section-title">Featured Publications</h2>
   <div class="home-card-grid">
     <article class="home-card">
-      <div class="home-card-meta"><img class="home-venue-icon" src="/images/venue-badges/nature-communications.svg" alt="Nature Communications badge"> <span>2026</span></div>
+      <div class="home-card-meta"><img class="home-venue-icon" src="/images/venue-badges/nature-communications.png" alt="Nature Communications badge"> <span>2026</span></div>
       <h3><a href="/publications/NatCommun2026_ALPaCA/">ALPaCA</a></h3>
       <p>A slide-level large vision-language model framework for whole-slide pathology question answering across cancer types and tissue sites.</p>
     </article>
