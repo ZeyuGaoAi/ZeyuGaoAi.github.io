@@ -58,6 +58,11 @@ redirect_from:
   <h2 class="home-section-title">Featured Publications</h2>
   <div class="home-card-grid">
     <article class="home-card">
+      <div class="home-card-meta"><img class="home-venue-icon" src="/images/venue-badges/nature-communications.svg" alt="Nature Communications badge"> <span>2026</span></div>
+      <h3><a href="/publications/NatCommun2026_ALPaCA/">ALPaCA</a></h3>
+      <p>A slide-level large vision-language model framework for whole-slide pathology question answering across cancer types and tissue sites.</p>
+    </article>
+    <article class="home-card">
       <div class="home-card-meta"><img class="home-venue-icon" src="/images/venue-badges/icml.svg" alt="ICML badge"> <span>2026</span></div>
       <h3><a href="/publications/ICML2026_PathCTM/">PathCTM</a></h3>
       <p>PathCTM accelerates gigapixel pathology analysis through adaptive continuous reasoning across magnifications, reducing patch usage and inference time by about 96% while preserving AUC.</p>
@@ -152,6 +157,10 @@ redirect_from:
 <section class="home-section">
   <h2 class="home-section-title">Recent Highlights</h2>
   <div class="home-compact">
+    <div class="home-compact-item">
+      <strong>August 2026</strong>
+      <p><a href="/publications/NatCommun2026_ALPaCA/">ALPaCA</a> was published in <em>Nature Communications</em>.</p>
+    </div>
     <div class="home-compact-item">
       <strong>August 2026</strong>
       <p>A £100,000 Early Detection and Diagnosis Committee Primer Award was funded for multimodal pathology foundation models, with Zeyu as Principal Investigator.</p>
