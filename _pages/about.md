@@ -104,7 +104,7 @@ redirect_from:
     </article>
     <article class="home-card">
       <div class="home-card-meta"><img class="home-venue-icon" src="/images/venue-badges/ieee-tmi.svg" alt="IEEE TMI badge"> <span>2022</span></div>
-      <h3><a href="/publications/TMI2022/">Global-to-Local Contrast</a></h3>
+      <h3><a href="/publications/TMI2022/">G2LContrast</a></h3>
       <p>An unsupervised multi-granularity representation learning framework for tissue segmentation in histopathology.</p>
     </article>
     <article class="home-card">
