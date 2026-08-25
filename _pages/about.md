@@ -83,38 +83,43 @@ redirect_from:
       <p>A measurable multi-instance learning framework for accurate spatial quantification and clinically useful pathology analysis.</p>
     </article>
     <article class="home-card">
+      <div class="home-card-meta"><img class="home-venue-icon" src="/images/venue-badges/ieee-tmi.svg" alt="IEEE TMI badge"> <span>2025</span></div>
+      <h3><a href="/publications/TMI2025/">ProGIS</a></h3>
+      <p>A prototype-guided interactive segmentation framework for pathological images with efficient prompt-based structure delineation.</p>
+    </article>
+    <article class="home-card">
       <div class="home-card-meta"><img class="home-venue-icon" src="/images/venue-badges/bioinformatics.png" alt="Bioinformatics badge"> <span>2025</span></div>
       <h3><a href="/publications/CoxKAN/">CoxKAN</a></h3>
       <p>An interpretable Cox proportional hazards Kolmogorov-Arnold Network for high-performance survival analysis in medicine.</p>
     </article>
     <article class="home-card">
       <div class="home-card-meta"><img class="home-venue-icon" src="/images/venue-badges/ieee-tmi.svg" alt="IEEE TMI badge"> <span>2023</span></div>
-      <h3><a href="/publications/TMI2023/">Childhood leukemia classification via information bottleneck enhanced hierarchical multi-instance learning</a></h3>
+      <h3><a href="/publications/TMI2023/">LeukemiaMIL</a></h3>
       <p>A hierarchical multi-instance learning framework with an information bottleneck for patient-level leukemia classification from bone marrow smears.</p>
     </article>
     <article class="home-card">
       <div class="home-card-meta"><img class="home-venue-icon" src="/images/venue-badges/media.svg" alt="Medical Image Analysis badge"> <span>2023</span></div>
-      <h3><a href="/publications/MedIA2023/">A semi-supervised multi-task learning framework for cancer classification with weak annotation in whole-slide images</a></h3>
+      <h3><a href="/publications/MedIA2023/">MinPointMTL</a></h3>
       <p>A semi-supervised multi-task framework that jointly learns cancer region detection and subtype classification under weak supervision in whole-slide images.</p>
     </article>
     <article class="home-card">
       <div class="home-card-meta"><img class="home-venue-icon" src="/images/venue-badges/ieee-tmi.svg" alt="IEEE TMI badge"> <span>2022</span></div>
-      <h3><a href="/publications/TMI2022/">Unsupervised representation learning for tissue segmentation in histopathological images: From global to local contrast</a></h3>
+      <h3><a href="/publications/TMI2022/">Global-to-Local Contrast</a></h3>
       <p>An unsupervised multi-granularity representation learning framework for tissue segmentation in histopathology.</p>
     </article>
     <article class="home-card">
       <div class="home-card-meta"><img class="home-venue-icon" src="/images/venue-badges/miccai.svg" alt="MICCAI badge"> <span>2021</span></div>
-      <h3><a href="/publications/MICCAI2021_0/">Nuclei grading of clear cell renal cell carcinoma in histopathological image by composite high-resolution network</a></h3>
+      <h3><a href="/publications/MICCAI2021_0/">CHRNet</a></h3>
       <p>A composite high-resolution framework for nuclei grading in clear cell renal cell carcinoma pathology images.</p>
     </article>
     <article class="home-card">
       <div class="home-card-meta"><img class="home-venue-icon" src="/images/venue-badges/miccai.svg" alt="MICCAI badge"> <span>2021</span></div>
-      <h3><a href="/publications/MICCAI2021_1/">Instance-based vision transformer for subtyping of papillary renal cell carcinoma in histopathological image</a></h3>
+      <h3><a href="/publications/MICCAI2021_1/">IBViT</a></h3>
       <p>An instance-based vision transformer for fine-grained papillary renal cell carcinoma subtyping from histopathological images.</p>
     </article>
     <article class="home-card">
       <div class="home-card-meta"><img class="home-venue-icon" src="/images/venue-badges/miccai.svg" alt="MICCAI badge"> <span>2020</span></div>
-      <h3><a href="/publications/MICCAI2020/">Renal cell carcinoma detection and subtyping with minimal point-based annotation in whole-slide images</a></h3>
+      <h3><a href="/publications/MICCAI2020/">MinPointRCC</a></h3>
       <p>A weakly supervised framework showing how minimal point annotations can support effective renal cancer detection and subtyping on whole-slide images.</p>
     </article>
   </div>
