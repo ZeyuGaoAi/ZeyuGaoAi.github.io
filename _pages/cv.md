@@ -46,7 +46,7 @@ Teaching
 
 Funding
 ======
-* CRUK Early Detection and Diagnosis Research Committee (EDDPMA-May26/100010), £100,000, 2026-2027, Principal Investigator.
+* [CRUK Early Detection and Diagnosis Research Committee](https://www.cancerresearchuk.org/for-researchers/apply-for-and-manage-your-funding/recently-funded-research/early-detection-diagnosis-committee-awards) (EDDPMA-May26/100010), £100,000, 2026-2027, Principal Investigator.
 * The Royal Society Research Grants 2025 Round 2, £30,000, Co-Led.
 * EPSRC-funded high-performance computing project, 40,000 GPU hours (approx. £20,000), Key Investigator.
   
