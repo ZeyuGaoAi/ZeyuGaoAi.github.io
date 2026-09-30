@@ -177,7 +177,7 @@ redirect_from:
     </div>
     <div class="home-compact-item">
       <strong>August 2026</strong>
-      <p>A £100,000 <a href="https://www.cancerresearchuk.org/for-researchers/apply-for-and-manage-your-funding/recently-funded-research/early-detection-diagnosis-committee-awards">Early Detection and Diagnosis Committee Primer Award</a> was funded for multimodal pathology foundation models, with Zeyu as Principal Investigator.</p>
+      <p>A £100,000 <a href="https://www.earlycancer.cam.ac.uk/news/eci-researchers-receive-cruk-primer-awards">Early Detection and Diagnosis Committee Primer Award</a> was funded for multimodal pathology foundation models, with Zeyu as Principal Investigator.</p>
     </div>
     <div class="home-compact-item">
       <strong>August 2026</strong>
@@ -228,7 +228,7 @@ redirect_from:
     <article class="home-card">
       <h3>Selected Honors</h3>
       <ul>
-        <li><a href="https://www.cancerresearchuk.org/for-researchers/apply-for-and-manage-your-funding/recently-funded-research/early-detection-diagnosis-committee-awards">CRUK Primer Award</a>, Principal Investigator (£100,000, 2026-2027).</li>
+        <li><a href="https://www.earlycancer.cam.ac.uk/news/eci-researchers-receive-cruk-primer-awards">CRUK Primer Award</a>, Principal Investigator (£100,000, 2026-2027).</li>
         <li>The Royal Society Research Grants 2025 Round 2, Co-Led (£30,000).</li>
         <li>EPSRC-funded high-performance computing project, Key Investigator (40,000 GPU hours, approx. £20,000).</li>
         <li>Postdoctoral Fellow, Trinity College Cambridge (2024-2026).</li>
