@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title desc">
+  <title id="title">NeurIPS badge</title>
+  <desc id="desc">Badge for Advances in Neural Information Processing Systems</desc>
+  <circle cx="48" cy="48" r="44" fill="#c8464b"/>
+  <circle cx="48" cy="48" r="40" fill="#fff8f4"/>
+  <text x="48" y="44" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#342b39">NeurIPS</text>
+  <text x="48" y="61" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="6.5" font-weight="700" letter-spacing="0.7" fill="#9a323d">CONFERENCE</text>
+</svg>

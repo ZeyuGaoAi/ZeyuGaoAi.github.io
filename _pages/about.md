@@ -58,6 +58,11 @@ redirect_from:
   <h2 class="home-section-title">Featured Publications</h2>
   <div class="home-card-grid">
     <article class="home-card">
+      <div class="home-card-meta"><img class="home-venue-icon" src="/images/venue-badges/neurips.svg" alt="NeurIPS badge"> <span>2026</span></div>
+      <h3><a href="/publications/NeurIPS2026_TMEvolve/">TMEvolve</a></h3>
+      <p>Models whole-slide images as dynamic tumor microenvironment fields, combining adaptive tissue regions with concept-guided interactions for slide-level prediction.</p>
+    </article>
+    <article class="home-card">
       <div class="home-card-meta"><img class="home-venue-icon" src="/images/venue-badges/nature-communications.png" alt="Nature Communications badge"> <span>2026</span></div>
       <h3><a href="/publications/NatCommun2026_ALPaCA/">ALPaCA</a></h3>
       <p>A slide-level large vision-language model framework for whole-slide pathology question answering across cancer types and tissue sites.</p>
@@ -162,6 +167,10 @@ redirect_from:
 <section class="home-section">
   <h2 class="home-section-title">Recent Highlights</h2>
   <div class="home-compact">
+    <div class="home-compact-item">
+      <strong>September 2026</strong>
+      <p><a href="/publications/NeurIPS2026_TMEvolve/">TMEvolve</a> and <a href="/publications/NeurIPS2026_PathNavigate/">PathNavigate</a> were accepted to NeurIPS 2026.</p>
+    </div>
     <div class="home-compact-item">
       <strong>August 2026</strong>
       <p><a href="/publications/NatCommun2026_ALPaCA/">ALPaCA</a> was published in <em>Nature Communications</em>.</p>
