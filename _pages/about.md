@@ -10,53 +10,83 @@ redirect_from:
   <div class="home-kicker">Computational Pathology and Multimodal AI</div>
   <h1>Zeyu Gao</h1>
   <p class="home-lead">I am a postdoctoral researcher in the Department of Oncology at the University of Cambridge, affiliated with the <a href="https://www.crispinlab.com/">Crispin Lab</a>, the CRUK Cambridge Centre, and the Early Cancer Institute. My work develops machine learning methods for whole-slide pathology, multimodal foundation models, spatial omics, and clinically relevant prediction from histopathology.</p>
-  <p class="home-meta">Research Associate, University of Cambridge. Current research support from GE HealthCare.</p>
+  <p class="home-meta">Current research support from GE HealthCare.</p>
   <div class="home-actions">
     <a class="home-button" href="/publications/">View Publications</a>
     <a class="home-button is-secondary" href="/talks/">View Talks</a>
-    <a class="home-button is-secondary" href="/cv/">Download CV</a>
-  </div>
-  <div class="home-glance">
-    <div class="home-glance-item">
-      <div class="home-glance-label">Current Focus</div>
-      <p>Foundation models, weak supervision, spatial transcriptomics, and robust whole-slide image analysis.</p>
-    </div>
-    <div class="home-glance-item">
-      <div class="home-glance-label">Application Area</div>
-      <p>Cancer diagnosis, prognosis, molecular prediction, spatial quantification, and anomaly detection.</p>
-    </div>
-    <div class="home-glance-item">
-      <div class="home-glance-label">Research Style</div>
-      <p>Method-driven work grounded in clinically meaningful pathology problems and translational impact.</p>
-    </div>
+    <a class="home-button is-secondary" href="/cv/">View CV</a>
   </div>
 </section>
 
-<section class="home-section">
-  <h2 class="home-section-title">Research Directions</h2>
-  <div class="home-card-grid">
-    <article class="home-card">
-      <h3>Pathology foundation models</h3>
-      <p>I study representation learning for pathology at scale, with an emphasis on adaptive region modeling, multimodal alignment, and data-efficient pretraining for whole-slide image analysis.</p>
-    </article>
-    <article class="home-card">
-      <h3>Spatial and molecular prediction</h3>
-      <p>My recent work links tissue morphology with transcriptomic, proteomic, and spatial signals to improve biomarker prediction and tissue-level interpretation.</p>
-    </article>
-    <article class="home-card">
-      <h3>Weakly supervised slide analysis</h3>
-      <p>I develop multi-instance, semi-supervised, and contrastive learning approaches that extract slide-level and region-level information from sparse or weak annotation.</p>
-    </article>
-    <article class="home-card">
-      <h3>Reliable clinical AI</h3>
-      <p>I am interested in robustness, out-of-distribution detection, explainability, and deployment-oriented evaluation for computational pathology systems.</p>
-    </article>
+<details class="home-section" id="recent-highlights" open>
+  <summary class="home-section-summary"><h2>Recent Highlights</h2></summary>
+  <div class="home-section-content">
+  <div class="home-compact">
+    <div class="home-compact-item">
+      <strong>September 2026</strong>
+      <p>Our work on <a href="/publications/npjPrecisionOncology2026_ClinicalTrajectories/">LLM-based reconstruction of longitudinal clinical trajectories in chronic liver disease</a> was published in <em>npj Precision Oncology</em>.</p>
+    </div>
+    <div class="home-compact-item">
+      <strong>September 2026</strong>
+      <p><a href="/publications/NeurIPS2026_TMEvolve/">TMEvolve</a> and <a href="/publications/NeurIPS2026_PathNavigate/">PathNavigate</a> were accepted to NeurIPS 2026.</p>
+    </div>
+    <div class="home-compact-item">
+      <strong>August 2026</strong>
+      <p><a href="/publications/NatCommun2026_ALPaCA/">ALPaCA</a> was published in <em>Nature Communications</em>.</p>
+    </div>
+    <div class="home-compact-item">
+      <strong>August 2026</strong>
+      <p>A £100,000 <a href="https://www.earlycancer.cam.ac.uk/news/eci-researchers-receive-cruk-primer-awards">Early Detection and Diagnosis Committee Primer Award</a> was funded for multimodal pathology foundation models, with Zeyu as Principal Investigator.</p>
+    </div>
+    <div class="home-compact-item">
+      <strong>August 2026</strong>
+      <p><a href="/publications/Bioinformatics2026_LFFA/">LFFA</a> was published in <em>Bioinformatics</em>.</p>
+    </div>
   </div>
-</section>
+  <details class="home-more">
+    <summary><span class="home-more-show">View all</span><span class="home-more-hide">Show less</span></summary>
+    <div class="home-compact">
+    <div class="home-compact-item">
+      <strong>July 2026</strong>
+      <p><a href="/publications/IntelligentOncology2026_FMReview/">A review on multiscale computational pathology</a> was published in <em>Intelligent Oncology</em>.</p>
+    </div>
+    <div class="home-compact-item">
+      <strong>July 2026</strong>
+      <p><a href="/publications/CVPR2026_CARE/">CARE</a> is now supported by <a href="https://github.com/mahmoodlab/TRIDENT">TRIDENT</a>.</p>
+    </div>
+    <div class="home-compact-item">
+      <strong>June 2026</strong>
+      <p><a href="/publications/MICCAI2026_AGE_MIL/">AGE-MIL</a> was accepted to MICCAI 2026.</p>
+    </div>
+    <div class="home-compact-item">
+      <strong>May 2026</strong>
+      <p><a href="/publications/ICML2026_PathCTM/">PathCTM</a> was accepted to ICML 2026.</p>
+    </div>
+    <div class="home-compact-item">
+      <strong>February 2026</strong>
+      <p><a href="/publications/CVPR2026_CARE/">CARE</a> was accepted to CVPR 2026.</p>
+    </div>
+    <div class="home-compact-item">
+      <strong>February 2026</strong>
+      <p><a href="/publications/MedIA2026_PH2ST/">PH2ST</a> was accepted to <em>Medical Image Analysis</em>.</p>
+    </div>
+    <div class="home-compact-item">
+      <strong>January 2026</strong>
+      <p><a href="/publications/WWW2026_HAAF/">HAAF</a> was accepted to WWW 2026.</p>
+    </div>
+    <div class="home-compact-item">
+      <strong>November 2025</strong>
+      <p><a href="/publications/SMMILe2025/">SMMILe</a> was published in <em>Nature Cancer</em>.</p>
+    </div>
+    </div>
+  </details>
+  </div>
+</details>
 
-<section class="home-section">
-  <h2 class="home-section-title">Featured Publications</h2>
-  <div class="home-card-grid">
+<details class="home-section" id="featured-publications" open>
+  <summary class="home-section-summary"><h2>Featured Publications</h2></summary>
+  <div class="home-section-content">
+<div class="home-card-grid">
     <article class="home-card">
       <div class="home-card-meta"><img class="home-venue-icon" src="/images/venue-badges/neurips.svg" alt="NeurIPS badge"> <span>2026</span></div>
       <h3><a href="/publications/NeurIPS2026_TMEvolve/">TMEvolve</a></h3>
@@ -128,11 +158,13 @@ redirect_from:
       <p>A weakly supervised framework showing how minimal point annotations can support effective renal cancer detection and subtyping on whole-slide images.</p>
     </article>
   </div>
-</section>
+  </div>
+</details>
 
-<section class="home-section">
-  <h2 class="home-section-title">Selected Talks and Presentations</h2>
-  <ol class="home-inline-list">
+<details class="home-section" id="selected-talks">
+  <summary class="home-section-summary"><h2>Selected Talks and Presentations</h2></summary>
+  <div class="home-section-content">
+<ol class="home-inline-list">
     <li>
       <strong>June 2026</strong> · <a href="/talks/2026-06-Genomic-Medicine-Summer-Conference/">Multimodal Foundation Models and Vision-Language Models in Computational Pathology</a>
       <p>Invited talk at the Department of Genomic Medicine Summer Conference 2026 in Cambridge.</p>
@@ -162,76 +194,13 @@ redirect_from:
       <p>Invited lecture at the Artificial Intelligence in Cancer Research Summer School 2025 in Corfu.</p>
     </li>
   </ol>
-</section>
-
-<section class="home-section">
-  <h2 class="home-section-title">Recent Highlights</h2>
-  <div class="home-compact">
-    <div class="home-compact-item">
-      <strong>September 2026</strong>
-      <p>Our work on <a href="/publications/npjPrecisionOncology2026_ClinicalTrajectories/">LLM-based reconstruction of longitudinal clinical trajectories in chronic liver disease</a> was published in <em>npj Precision Oncology</em>.</p>
-    </div>
-    <div class="home-compact-item">
-      <strong>September 2026</strong>
-      <p><a href="/publications/NeurIPS2026_TMEvolve/">TMEvolve</a> and <a href="/publications/NeurIPS2026_PathNavigate/">PathNavigate</a> were accepted to NeurIPS 2026.</p>
-    </div>
-    <div class="home-compact-item">
-      <strong>August 2026</strong>
-      <p><a href="/publications/NatCommun2026_ALPaCA/">ALPaCA</a> was published in <em>Nature Communications</em>.</p>
-    </div>
-    <div class="home-compact-item">
-      <strong>August 2026</strong>
-      <p>A £100,000 <a href="https://www.earlycancer.cam.ac.uk/news/eci-researchers-receive-cruk-primer-awards">Early Detection and Diagnosis Committee Primer Award</a> was funded for multimodal pathology foundation models, with Zeyu as Principal Investigator.</p>
-    </div>
-    <div class="home-compact-item">
-      <strong>August 2026</strong>
-      <p><a href="/publications/Bioinformatics2026_LFFA/">LFFA</a> was published in <em>Bioinformatics</em>.</p>
-    </div>
-    <div class="home-compact-item">
-      <strong>July 2026</strong>
-      <p><a href="/publications/IntelligentOncology2026_FMReview/">A review on multiscale computational pathology</a> was published in <em>Intelligent Oncology</em>.</p>
-    </div>
-    <div class="home-compact-item">
-      <strong>July 2026</strong>
-      <p><a href="/publications/CVPR2026_CARE/">CARE</a> is now supported by <a href="https://github.com/mahmoodlab/TRIDENT">TRIDENT</a>.</p>
-    </div>
-    <div class="home-compact-item">
-      <strong>June 2026</strong>
-      <p><a href="/publications/MICCAI2026_AGE_MIL/">AGE-MIL</a> was accepted to MICCAI 2026.</p>
-    </div>
-    <div class="home-compact-item">
-      <strong>May 2026</strong>
-      <p><a href="/publications/ICML2026_PathCTM/">PathCTM</a> was accepted to ICML 2026.</p>
-    </div>
-    <div class="home-compact-item">
-      <strong>February 2026</strong>
-      <p><a href="/publications/CVPR2026_CARE/">CARE</a> was accepted to CVPR 2026.</p>
-    </div>
-    <div class="home-compact-item">
-      <strong>February 2026</strong>
-      <p><a href="/publications/MedIA2026_PH2ST/">PH2ST</a> was accepted to <em>Medical Image Analysis</em>.</p>
-    </div>
-    <div class="home-compact-item">
-      <strong>January 2026</strong>
-      <p><a href="/publications/WWW2026_HAAF/">HAAF</a> was accepted to WWW 2026.</p>
-    </div>
-    <div class="home-compact-item">
-      <strong>November 2025</strong>
-      <p><a href="/publications/SMMILe2025/">SMMILe</a> was published in <em>Nature Cancer</em>.</p>
-    </div>
   </div>
-</section>
+</details>
 
-<section class="home-section">
-  <h2 class="home-section-title">Background</h2>
-  <div class="home-card-grid">
-    <article class="home-card">
-      <h3>Training</h3>
-      <p>I received my Ph.D. in Computer Science from Xi’an Jiaotong University in 2023, jointly trained by the School of Computer Science and the School of Mathematics and Statistics under the supervision of <a href="https://chenli.group/people/Chen_Li/index.html">Prof. Chen Li</a> and <a href="https://scholar.google.com/citations?user=an6w-64AAAAJ&amp;hl=zh-CN">Prof. Deyu Meng</a>. Before that, I completed my M.S. in Artificial Intelligence at Xidian University under the supervision of <a href="https://scholar.google.com/citations?user=G6AdRfwAAAAJ&amp;hl=en">Prof. Xiangrong Zhang</a>, as well as my B.S. in Electronic Engineering there.</p>
-    </article>
-    <article class="home-card">
-      <h3>Selected Honors</h3>
-      <ul>
+<details class="home-section" id="selected-honors">
+  <summary class="home-section-summary"><h2>Selected Honors</h2></summary>
+  <div class="home-section-content">
+<ul>
         <li><a href="https://www.earlycancer.cam.ac.uk/news/eci-researchers-receive-cruk-primer-awards">CRUK Primer Award</a>, Principal Investigator (£100,000, 2026-2027).</li>
         <li>The Royal Society Research Grants 2025 Round 2, Co-Led (£30,000).</li>
         <li>EPSRC-funded high-performance computing project, Key Investigator (40,000 GPU hours, approx. £20,000).</li>
@@ -239,6 +208,12 @@ redirect_from:
         <li>Excellent Postgraduate of Xi’an Jiaotong University (2021-2022).</li>
         <li>MICCAI Student Travel Award (2021).</li>
       </ul>
-    </article>
   </div>
-</section>
+</details>
+
+<details class="home-section" id="training">
+  <summary class="home-section-summary"><h2>Training</h2></summary>
+  <div class="home-section-content">
+<p>I received my Ph.D. in Computer Science from Xi’an Jiaotong University in 2023, jointly trained by the School of Computer Science and the School of Mathematics and Statistics under the supervision of <a href="https://chenli.group/people/Chen_Li/index.html">Prof. Chen Li</a> and <a href="https://scholar.google.com/citations?user=an6w-64AAAAJ&amp;hl=zh-CN">Prof. Deyu Meng</a>. Before that, I completed my M.S. in Artificial Intelligence at Xidian University under the supervision of <a href="https://scholar.google.com/citations?user=G6AdRfwAAAAJ&amp;hl=en">Prof. Xiangrong Zhang</a>, as well as my B.S. in Electronic Engineering there.</p>
+  </div>
+</details>
