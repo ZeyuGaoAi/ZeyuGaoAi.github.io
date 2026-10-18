@@ -169,6 +169,10 @@ redirect_from:
   <div class="home-compact">
     <div class="home-compact-item">
       <strong>September 2026</strong>
+      <p>Our work on <a href="/publications/npjPrecisionOncology2026_ClinicalTrajectories/">LLM-based reconstruction of longitudinal clinical trajectories in chronic liver disease</a> was published in <em>npj Precision Oncology</em>.</p>
+    </div>
+    <div class="home-compact-item">
+      <strong>September 2026</strong>
       <p><a href="/publications/NeurIPS2026_TMEvolve/">TMEvolve</a> and <a href="/publications/NeurIPS2026_PathNavigate/">PathNavigate</a> were accepted to NeurIPS 2026.</p>
     </div>
     <div class="home-compact-item">
